@@ -6,20 +6,21 @@ export default function Banner() {
       <div class="container-fluid p-0 mb-5">
         <div
           id="header-carousel"
-          class="carousel slide"
+          className="carousel slide"
           data-bs-ride="carousel"
         >
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img class="w-100" src="img/carousel-bg-1.jpg" alt="Image" />
-              <div class="carousel-caption d-flex align-items-center">
-                <div class="container">
-                  <div class="row align-items-center justify-content-center justify-content-lg-start">
-                    <div class="col-10 col-lg-7 text-center text-lg-start">
-                      <h6 class="text-white text-uppercase mb-3 animated slideInDown">
+          <div className="carousel-inner">
+            <div className="carousel-item active">
+              <img className="w-100" src="img/carousel-bg-1.jpg" alt="Image" />
+              <div className="carousel-caption d-flex align-items-center">
+                <div className="container">
+                  <div className="row align-items-center justify-content-center justify-content-lg-start">
+                    <div className="col-10 col-lg-7 text-center text-lg-start">
+                      <h6 className="text-white text-uppercase mb-3 animated slideInDown">
                         {" "}
                         Car Servicing
                       </h6>
+
                       <h1 class="display-3 text-bolder text-white mb-4 pb-3 animated slideInDown">
                         Cheap and Affordable Cars
                       </h1>
@@ -31,8 +32,8 @@ export default function Banner() {
                         {/* <i class="fa fa-arrow-right ms-3"></i> */}
                       </a>
                     </div>
-                    <div class="col-lg-5 d-none d-lg-flex animated zoomIn">
-                      <img class="img-fluid" src="img/carousel-1.png" alt="" />
+                    <div className="col-lg-5 d-none d-lg-flex animated zoomIn">
+                      <img className="img-fluid" src="img/carousel-1.png" alt="" />
                     </div>
                   </div>
                 </div>
@@ -59,8 +60,8 @@ export default function Banner() {
                         {/* <i class="fa fa-arrow-right ms-3"></i> */}
                       </a>
                     </div>
-                    <div class="col-lg-5 d-none d-lg-flex animated zoomIn">
-                      <img class="img-fluid" src="img/carousel-2.png" alt="" />
+                    <div className="col-lg-5 d-none d-lg-flex animated zoomIn">
+                      <img className="img-fluid" src="img/carousel-2.png" alt="" />
                     </div>
                   </div>
                 </div>
@@ -68,22 +69,22 @@ export default function Banner() {
             </div>
           </div>
           <button
-            class="carousel-control-prev"
+            className="carousel-control-prev"
             type="button"
             data-bs-target="#header-carousel"
             data-bs-slide="prev"
           >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
+            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span className="visually-hidden">Previous</span>
           </button>
           <button
-            class="carousel-control-next"
+            className="carousel-control-next"
             type="button"
             data-bs-target="#header-carousel"
             data-bs-slide="next"
           >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
+            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+            <span className="visually-hidden">Next</span>
           </button>
         </div>
       </div>

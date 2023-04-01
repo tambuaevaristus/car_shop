@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from "@/styles/Home.module.css";
 import Header from "@/components/Header";
 import Banner from "@/components/Banner";
+import Cars from "@/components/Cars";
 import Services from "@/components/Services";
 import Another from "@/components/Another";
 import CarList from "@/components/CarList";
@@ -47,6 +48,7 @@ export default function Home() {
       <div>
         <Header />
         <Banner />
+        <Cars />
         <Services />
         <CarList />
         <Another />
