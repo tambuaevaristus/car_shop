@@ -23,13 +23,20 @@ export default function Banner() {
                       <h1 class="display-3 text-bolder text-white mb-4 pb-3 animated slideInDown">
                         Cheap and Affordable Cars
                       </h1>
+                      <div>
                       <a
                         href=""
-                        class="btn btn-danger rounded-2 py-3 fw-bolder px-5 animated rounded-0 slideInDown"
+                        class="btn btn-danger rounded-2 py-2 mx-3 fw-bolder px-5 animated slideInDown"
+                      >
+                        Buy
+                      </a>
+                      <a
+                        href=""
+                        class="btn btn-danger rounded-2 py-2 fw-bolder px-5 animated slideInDown"
                       >
                         Sell
-                        {/* <i class="fa fa-arrow-right ms-3"></i> */}
                       </a>
+                      </div>
                     </div>
                     <div class="col-lg-5 d-none d-lg-flex animated zoomIn">
                       <img class="img-fluid" src="img/carousel-1.png" alt="" />
@@ -51,13 +58,20 @@ export default function Banner() {
                       <h1 class="display-3 text-white mb-4 pb-3 animated slideInDown">
                         Your safety is our Priority
                       </h1>
+                      <div>
                       <a
                         href=""
-                        class="btn btn-danger rounded-2 py-3 fw-bolder px-5 animated slideInDown"
+                        class="btn btn-danger rounded-2 py-2 mx-3 fw-bolder px-5 animated slideInDown"
                       >
                         Buy
-                        {/* <i class="fa fa-arrow-right ms-3"></i> */}
                       </a>
+                      <a
+                        href=""
+                        class="btn btn-danger rounded-2 py-2 fw-bolder px-5 animated slideInDown"
+                      >
+                        Sell
+                      </a>
+                      </div>
                     </div>
                     <div class="col-lg-5 d-none d-lg-flex animated zoomIn">
                       <img class="img-fluid" src="img/carousel-2.png" alt="" />
