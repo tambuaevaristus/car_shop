@@ -5,7 +5,7 @@ export default function Car() {
   return (
     // <div className="col-lg-4 p-3 py-4 col-md-4 col-12">
 
-    <div class="col-md-8 col-lg-6 col-xl-4 my-3">
+    <div class="col-md-8 col-lg-4 col-xl-3 my-3">
         <div
           class="bg-image border rounded hover-overlay ripple ripple-surface ripple-surface-light"
           data-mdb-ripple-color="light"
@@ -19,7 +19,7 @@ export default function Car() {
                     <div class="mask"></div>
                   </a> */}
         
-        <div class="card-body pb-0 px-4">
+        <div class="card-body pb-0 px-5">
           <div class="d-flex py-4 justify-content-between">
             <h3>Toyota Corola</h3>
           </div>
