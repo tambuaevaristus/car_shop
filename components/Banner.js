@@ -25,7 +25,7 @@ export default function Banner() {
                       </h1>
                       <a
                         href=""
-                        class="btn btn-danger py-3 px-5 animated slideInDown"
+                        class="btn btn-danger py-3 px-5 animated rounded-0 slideInDown"
                       >
                         Learn More<i class="fa fa-arrow-right ms-3"></i>
                       </a>
@@ -52,7 +52,7 @@ export default function Banner() {
                       </h1>
                       <a
                         href=""
-                        class="btn btn-danger py-3 px-5 animated slideInDown"
+                        class="btn btn-danger rounded-0 py-3 px-5 animated slideInDown"
                       >
                         Learn More<i class="fa fa-arrow-right ms-3"></i>
                       </a>
