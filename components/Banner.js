@@ -10,45 +10,7 @@ export default function Banner() {
           data-bs-ride="carousel"
         >
           <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img
-                class="w-100"
-                src="https://img.freepik.com/free-vector/high-speed-race-hatchback-car-trailing-lights-motion-effect-realistic-composition-night-city-street_1284-28805.jpg?w=2000&t=st=1680369556~exp=1680370156~hmac=2d9ebd31acda5bb59bcb73cdd110f99544a8c49fdcba7f022fa2e0d874bfc15c"
-                alt="Image"
-              />
-              <div class="carousel-caption d-flex align-items-center">
-                <div class="container">
-                  <div class="row align-items-center justify-content-center justify-content-lg-start">
-                    <div class="col-10 col-lg-7 text-center text-lg-start">
-                      <h6 class="text-white text-uppercase mb-3 animated slideInDown">
-                        {" "}
-                        Car Servicing
-                      </h6>
-                      <h1 class="display-3 fw-bolder text-white mb-4 pb-3 animated slideInDown">
-                        Cheap and Affordable Cars
-                      </h1>
-                      <div>
-                        <a
-                          href=""
-                          class="btn btn-danger rounded-2 py-2 fw-bolder px-5 animated slideInDown"
-                        >
-                          Buy
-                        </a>
-                        <a
-                          href=""
-                          class="btn btn-danger mx-3 rounded-2 py-2 fw-bolder px-5 animated slideInDown"
-                        >
-                          Sell
-                        </a>
-                      </div>
-                    </div>
-                    <div class="col-lg-5 d-none d-lg-flex animated zoomIn">
-                      <img class="img-fluid" src="img/carousel-1.png" alt="" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            
             <div class="carousel-item">
               <img class="w-100" src="/img/bg.avif" alt="Image" />
               <div class="carousel-caption  d-flex align-items-center">
@@ -65,13 +27,13 @@ export default function Banner() {
                       <div>
                         <a
                           href=""
-                          class="btn btn-danger rounded-2 py-2 fw-bolder px-5 animated slideInDown"
+                          class="btn btn-danger rounded-2 py-2  fw-bolder px-5 animated slideInDown"
                         >
                           Buy
                         </a>
                         <a
                           href=""
-                          class="btn btn-danger mx-3 rounded-2 py-2 fw-bolder px-5 animated slideInDown"
+                          class="btn btn-danger mx-lg-3 rounded-2 py-2 fw-bolder my-sm-2 px-5 animated slideInDown"
                         >
                           Sell
                         </a>
@@ -79,6 +41,45 @@ export default function Banner() {
                     </div>
                     <div class="col-lg-5 d-none d-lg-flex animated zoomIn">
                       <img class="img-fluid" src="img/carousel-2.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item active">
+              <img
+                class="w-100"
+                src="https://img.freepik.com/free-vector/high-speed-race-hatchback-car-trailing-lights-motion-effect-realistic-composition-night-city-street_1284-28805.jpg?w=2000&t=st=1680369556~exp=1680370156~hmac=2d9ebd31acda5bb59bcb73cdd110f99544a8c49fdcba7f022fa2e0d874bfc15c"
+                alt="Image"
+              />
+              <div class="carousel-caption d-flex align-items-center">
+                <div class="container">
+                  <div class="row align-items-center justify-content-center justify-content-lg-start">
+                    <div class="col-10 col-lg-7 text-center text-lg-start">
+                      <h6 class="text-white text-uppercase mb-3 animated slideInDown">
+                        {" "}
+                        Car Servicing
+                      </h6>
+                      <h1 class="display-5 fw-bolder text-white mb-4 pb-3 animated slideInDown">
+                        Get your dream car with no stress
+                      </h1>
+                      <div>
+                        <a
+                          href=""
+                          class="btn btn-danger rounded-2 py-2 fw-bolder px-5 animated slideInDown"
+                        >
+                          Buy
+                        </a>
+                        <a
+                          href=""
+                          class="btn btn-danger mx-3 rounded-2 py-2 my-sm-2 fw-bolder px-5 animated slideInDown"
+                        >
+                          Sell
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-lg-5 d-none d-lg-flex animated zoomIn">
+                      <img class="img-fluid" src="img/carousel-1.png" alt="" />
                     </div>
                   </div>
                 </div>
