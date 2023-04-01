@@ -48,7 +48,7 @@ export default function Banner() {
                         Car Servicing //
                       </h6>
                       <h1 class="display-3 text-white mb-4 pb-3 animated slideInDown">
-                        Qualified Car Wash Service Center
+                        Your safety is our Priority
                       </h1>
                       <a
                         href=""
