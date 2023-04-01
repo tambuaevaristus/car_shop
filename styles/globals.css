@@ -92,6 +92,12 @@
     outline: none;
 }
 
+.advance-search{
+    background-color: white;
+    margin-top: -100px;
+    position: relative;
+}
+
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
     color: var(--primary);

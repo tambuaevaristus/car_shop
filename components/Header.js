@@ -63,8 +63,11 @@ export default function Header() {
             <a href="about.html" class="nav-item nav-link">
               About
             </a>
-            <a href="service.html" class="nav-item nav-link">
+           <a href="service.html" class="nav-item nav-link">
               Services
+            </a>
+            <a href="/shop" class="nav-item nav-link">
+              Shop
             </a>
             {/* <div class="nav-item dropdown">
               <a

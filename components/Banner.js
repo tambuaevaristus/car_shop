@@ -25,9 +25,10 @@ export default function Banner() {
                       </h1>
                       <a
                         href=""
-                        class="btn btn-danger py-3 px-5 animated rounded-0 slideInDown"
+                        class="btn btn-danger rounded-2 py-3 fw-bolder px-5 animated rounded-0 slideInDown"
                       >
-                        Learn More<i class="fa fa-arrow-right ms-3"></i>
+                        Sell
+                        {/* <i class="fa fa-arrow-right ms-3"></i> */}
                       </a>
                     </div>
                     <div class="col-lg-5 d-none d-lg-flex animated zoomIn">
@@ -43,7 +44,7 @@ export default function Banner() {
                 <div class="container">
                   <div class="row align-items-center justify-content-center justify-content-lg-start">
                     <div class="col-10 col-lg-7 text-center text-lg-start">
-                      <h6 class="text-white text-uppercase mb-3 animated slideInDown">
+                      <h6 class="text-white text-uppercase animated slideInDown">
                         {" "}
                         Car Servicing //
                       </h6>
@@ -52,9 +53,10 @@ export default function Banner() {
                       </h1>
                       <a
                         href=""
-                        class="btn btn-danger rounded-0 py-3 px-5 animated slideInDown"
+                        class="btn btn-danger rounded-2 py-3 fw-bolder px-5 animated slideInDown"
                       >
-                        Learn More<i class="fa fa-arrow-right ms-3"></i>
+                        Buy
+                        {/* <i class="fa fa-arrow-right ms-3"></i> */}
                       </a>
                     </div>
                     <div class="col-lg-5 d-none d-lg-flex animated zoomIn">
@@ -84,6 +86,34 @@ export default function Banner() {
             <span class="visually-hidden">Next</span>
           </button>
         </div>
+      </div>
+
+      <div class="advance-search col-10 px-5  mx-auto py-5 border ">
+        <form action="#">
+          <div class="row">
+            <div class="col-lg-6 col-md-12">
+              <div class="block d-flex">
+                <input
+                  type="text"
+                  class="form-control mb-2 mr-sm-2 mb-sm-0"
+                  id="search"
+                  placeholder="Search for store"
+                />
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+              <div class="block d-flex">
+                <input
+                  type="text"
+                  class="form-control mb-2 mr-sm-2 mb-sm-0"
+                  id="search"
+                  placeholder="Search for store"
+                />
+                <button class="btn btn-main">SEARCH</button>
+              </div>
+            </div>
+          </div>
+        </form>
       </div>
     </div>
   );
