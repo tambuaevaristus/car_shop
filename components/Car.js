@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Car() {
   return (
-    <div className='col-lg-3 py-4 col-md-4 col'>
+    <div className='col-lg-3 py-4 col-md-4 col-12'>
         <div class="product-item bg-light">
 	<div class="card">
 		<div class="thumb-content">
