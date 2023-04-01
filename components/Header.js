@@ -43,8 +43,8 @@ export default function Header() {
           href="index.html"
           class="navbar-brand d-flex align-items-center px-4 px-lg-5"
         >
-          <h2 class="m-0 text-primary">
-            <i class="fa fa-car me-3"></i>Car Shop
+          <h2 class="m-0 text-danger">
+            <i class="fa fa-car me-3"></i>TopBits
           </h2>
         </a>
         <button
@@ -63,10 +63,13 @@ export default function Header() {
             <a href="about.html" class="nav-item nav-link">
               About
             </a>
-            <a href="service.html" class="nav-item nav-link">
+           <a href="service.html" class="nav-item nav-link">
               Services
             </a>
-            <div class="nav-item dropdown">
+            <a href="/shop" class="nav-item nav-link">
+              Shop
+            </a>
+            {/* <div class="nav-item dropdown">
               <a
                 href="#"
                 class="nav-link dropdown-toggle"
@@ -88,13 +91,13 @@ export default function Header() {
                   404 Page
                 </a>
               </div>
-            </div>
+            </div> */}
             <a href="contact.html" class="nav-item nav-link">
               Contact
             </a>
           </div>
-          <a href="" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">
-            Get A Quote<i class="fa fa-arrow-right ms-3"></i>
+          <a href="" class="btn btn-danger py-4 px-lg-5 rounded-0 d-none d-lg-block">
+            Register<i class="fa fa-arrow-right ms-3"></i>
           </a>
         </div>
       </nav>

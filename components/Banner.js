@@ -18,16 +18,18 @@ export default function Banner() {
                     <div className="col-10 col-lg-7 text-center text-lg-start">
                       <h6 className="text-white text-uppercase mb-3 animated slideInDown">
                         {" "}
-                        Car Servicing //
+                        Car Servicing
                       </h6>
-                      <h1 className="display-3 text-white mb-4 pb-3 animated slideInDown">
+
+                      <h1 class="display-3 text-bolder text-white mb-4 pb-3 animated slideInDown">
                         Cheap and Affordable Cars
                       </h1>
                       <a
                         href=""
-                        className="btn btn-primary py-3 px-5 animated slideInDown"
+                        class="btn btn-danger rounded-2 py-3 fw-bolder px-5 animated rounded-0 slideInDown"
                       >
-                        Learn More<i className="fa fa-arrow-right ms-3"></i>
+                        Sell
+                        {/* <i class="fa fa-arrow-right ms-3"></i> */}
                       </a>
                     </div>
                     <div className="col-lg-5 d-none d-lg-flex animated zoomIn">
@@ -37,24 +39,25 @@ export default function Banner() {
                 </div>
               </div>
             </div>
-            <div className="carousel-item">
-              <img className="w-100" src="img/carousel-bg-2.jpg" alt="Image" />
-              <div className="carousel-caption d-flex align-items-center">
-                <div className="container">
-                  <div className="row align-items-center justify-content-center justify-content-lg-start">
-                    <div className="col-10 col-lg-7 text-center text-lg-start">
-                      <h6 className="text-white text-uppercase mb-3 animated slideInDown">
+            <div class="carousel-item">
+              <img class="w-100" src="img/carousel-bg-2.jpg" alt="Image" />
+              <div class="carousel-caption  d-flex align-items-center">
+                <div class="container">
+                  <div class="row align-items-center justify-content-center justify-content-lg-start">
+                    <div class="col-10 col-lg-7 text-center text-lg-start">
+                      <h6 class="text-white text-uppercase animated slideInDown">
                         {" "}
                         Car Servicing //
                       </h6>
-                      <h1 className="display-3 text-white mb-4 pb-3 animated slideInDown">
-                        Qualified Car Wash Service Center
+                      <h1 class="display-3 text-white mb-4 pb-3 animated slideInDown">
+                        Your safety is our Priority
                       </h1>
                       <a
                         href=""
-                        className="btn btn-primary py-3 px-5 animated slideInDown"
+                        class="btn btn-danger rounded-2 py-3 fw-bolder px-5 animated slideInDown"
                       >
-                        Learn More<i className="fa fa-arrow-right ms-3"></i>
+                        Buy
+                        {/* <i class="fa fa-arrow-right ms-3"></i> */}
                       </a>
                     </div>
                     <div className="col-lg-5 d-none d-lg-flex animated zoomIn">
@@ -84,6 +87,34 @@ export default function Banner() {
             <span className="visually-hidden">Next</span>
           </button>
         </div>
+      </div>
+
+      <div class="advance-search col-10 px-5  mx-auto py-5 border ">
+        <form action="#">
+          <div class="row">
+            <div class="col-lg-6 col-md-12">
+              <div class="block d-flex">
+                <input
+                  type="text"
+                  class="form-control mb-2 mr-sm-2 mb-sm-0"
+                  id="search"
+                  placeholder="Search for store"
+                />
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+              <div class="block d-flex">
+                <input
+                  type="text"
+                  class="form-control mb-2 mr-sm-2 mb-sm-0"
+                  id="search"
+                  placeholder="Search for store"
+                />
+                <button class="btn btn-main">SEARCH</button>
+              </div>
+            </div>
+          </div>
+        </form>
       </div>
     </div>
   );
