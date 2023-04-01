@@ -18,14 +18,14 @@ export default function Banner() {
                     <div class="col-10 col-lg-7 text-center text-lg-start">
                       <h6 class="text-white text-uppercase mb-3 animated slideInDown">
                         {" "}
-                        Car Servicing //
+                        Car Servicing
                       </h6>
-                      <h1 class="display-3 text-white mb-4 pb-3 animated slideInDown">
+                      <h1 class="display-3 text-bolder text-white mb-4 pb-3 animated slideInDown">
                         Cheap and Affordable Cars
                       </h1>
                       <a
                         href=""
-                        class="btn btn-primary py-3 px-5 animated slideInDown"
+                        class="btn btn-danger py-3 px-5 animated slideInDown"
                       >
                         Learn More<i class="fa fa-arrow-right ms-3"></i>
                       </a>
@@ -39,7 +39,7 @@ export default function Banner() {
             </div>
             <div class="carousel-item">
               <img class="w-100" src="img/carousel-bg-2.jpg" alt="Image" />
-              <div class="carousel-caption d-flex align-items-center">
+              <div class="carousel-caption  d-flex align-items-center">
                 <div class="container">
                   <div class="row align-items-center justify-content-center justify-content-lg-start">
                     <div class="col-10 col-lg-7 text-center text-lg-start">
@@ -52,7 +52,7 @@ export default function Banner() {
                       </h1>
                       <a
                         href=""
-                        class="btn btn-primary py-3 px-5 animated slideInDown"
+                        class="btn btn-danger py-3 px-5 animated slideInDown"
                       >
                         Learn More<i class="fa fa-arrow-right ms-3"></i>
                       </a>
