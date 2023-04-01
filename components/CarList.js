@@ -6,7 +6,20 @@ export default function CarList() {
     <div>
         car list
 
-        <Car/>
+<div className='container'>
+    <div className='row'>
+    <Car/>
+    <Car/>
+    <Car/>
+    <Car/>
+    <Car/>
+    <Car/>
+    <Car/>
+    <Car/>
+
+    </div>
+
+</div>
     </div>
   )
 }

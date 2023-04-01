@@ -7,6 +7,7 @@ import Services from "@/components/Services";
 import Another from "@/components/Another";
 import CarList from "@/components/CarList";
 import Script from "next/script";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -49,6 +50,9 @@ export default function Home() {
         <Services />
         <CarList />
         <Another />
+
+
+        <Footer />
       </div>
 
       {/* <Script src="https://code.jquery.com/jquery-3.4.1.min.js" /> */}
