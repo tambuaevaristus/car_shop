@@ -10,7 +10,6 @@ export default function Banner() {
           data-bs-ride="carousel"
         >
           <div class="carousel-inner">
-            
             <div class="carousel-item">
               <img class="w-100" src="/img/bg.avif" alt="Image" />
               <div class="carousel-caption  d-flex align-items-center">
@@ -108,27 +107,48 @@ export default function Banner() {
       </div>
 
       <div class="advance-search col-10 px-5 container mx-auto py-5 border ">
-        <form action="#">
-          <div class="row">
-            <div class="col-lg-6 col-md-12">
+        <form action="#" className="">
+          <div class="row mx-auto">
+            <div class="col-lg-3 col-md-3">
               <div class="block d-flex">
-                <input
-                  type="text"
-                  class="form-control mb-2 mr-sm-2 mb-sm-0"
-                  id="search"
-                  placeholder="Search for store"
-                />
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>By Date</option>
+                  <option value="1">2013</option>
+                  <option value="2">2011</option>
+                  <option value="3">2018</option>
+                </select>
               </div>
             </div>
-            <div class="col-lg-6 col-md-12">
+            <div class="col-lg-3 col-md-3">
               <div class="block d-flex">
-                <input
-                  type="text"
-                  class="form-control mb-2 mr-sm-2 mb-sm-0"
-                  id="search"
-                  placeholder="Search for store"
-                />
-                <button class="btn btn-main">SEARCH</button>
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>By Model</option>
+                  <option value="1">Toyota</option>
+                  <option value="2">Tesla</option>
+                  <option value="3">Benz</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3">
+              <div class="block d-flex">
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>By Fuel Type</option>
+                  <option value="1">Petrol</option>
+                  <option value="2">Dizeil</option>
+                  <option value="3">Gas</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-3">
+              <div class="block d-flex">
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>By Mileage</option>
+                  <option value="1">Hibrid</option>
+                  <option value="2">Manual</option>
+                  <option value="3">Digital</option>
+                </select>
+                <button class="btn btn-danger mx-2">SEARCH</button>
               </div>
             </div>
           </div>
