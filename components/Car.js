@@ -24,10 +24,10 @@ export default function Car() {
                     <div>
                       <p>
                         <a href="#!" class="text-dark">
-                          Dell Xtreme 270
+                          Toyota
                         </a>
                       </p>
-                      <p class="small text-muted">Laptops</p>
+                      <p class="small text-muted">model</p>
                     </div>
                     <div>
                       <div class="d-flex flex-row justify-content-end mt-1 mb-4 text-danger">
@@ -36,7 +36,7 @@ export default function Car() {
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                       </div>
-                      <p class="small text-muted">Rated 4.0/5</p>
+                      <p class="small text-muted"></p>
                     </div>
                   </div>
                 </div>
@@ -44,11 +44,9 @@ export default function Car() {
                 <div class="card-body pb-0">
                   <div class="d-flex justify-content-between">
                     <p>
-                      <a href="#!" class="text-dark">
-                        $3,999
-                      </a>
+                   Highest bid
                     </p>
-                    <p class="text-dark">#### 8787</p>
+                    <p class="text-dark">2000,000XAF</p>
                   </div>
                   <p class="small text-muted">VISA Platinum</p>
                 </div>
