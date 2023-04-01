@@ -5,7 +5,7 @@ export default function Car() {
   return (
     // <div className="col-lg-4 p-3 py-4 col-md-4 col-12">
 
-    <div class="col-md-8 col-lg-4 col-xl-3 my-3">
+    <div class="col-md-8 col-lg-4 col-xl-4 my-3">
         <div
           class="bg-image border rounded hover-overlay ripple ripple-surface ripple-surface-light"
           data-mdb-ripple-color="light"

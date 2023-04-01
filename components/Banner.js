@@ -11,7 +11,12 @@ export default function Banner() {
         >
           <div class="carousel-inner">
             <div class="carousel-item">
-              <img class="w-100" src="/img/bg.avif" alt="Image" />
+              <img
+                class="w-100"
+                height="650px"
+                src="/img/bg.avif"
+                alt="Image"
+              />
               <div class="carousel-caption  d-flex align-items-center">
                 <div class="container">
                   <div class="row align-items-center justify-content-center justify-content-lg-start">
@@ -20,7 +25,7 @@ export default function Banner() {
                         {" "}
                         Car Servicing
                       </h6>
-                      <h1 class="display-3 fw-bolder text-white mb-4 pb-3 animated slideInDown">
+                      <h1 class="display-4 fw-bolder text-white mb-4 pb-3 animated slideInDown">
                         Your safety is our Priority
                       </h1>
                       <div>
@@ -48,7 +53,7 @@ export default function Banner() {
             <div class="carousel-item active">
               <img
                 class="w-100"
-                src="https://img.freepik.com/free-vector/high-speed-race-hatchback-car-trailing-lights-motion-effect-realistic-composition-night-city-street_1284-28805.jpg?w=2000&t=st=1680369556~exp=1680370156~hmac=2d9ebd31acda5bb59bcb73cdd110f99544a8c49fdcba7f022fa2e0d874bfc15c"
+                src="https://img.freepik.com/free-vector/black-cloth-drapery-covering-car-silk-fabric-hanging-gift-surprise-reveal_575670-656.jpg?w=1380&t=st=1680383926~exp=1680384526~hmac=a3f681216b673e10a77cc1f98c9d1e46f58c820cbf5a43f41ed0339b914321e1"
                 alt="Image"
               />
               <div class="carousel-caption d-flex align-items-center">
@@ -59,8 +64,8 @@ export default function Banner() {
                         {" "}
                         Car Servicing
                       </h6>
-                      <h1 class="display-5 fw-bolder text-white mb-4 pb-3 animated slideInDown">
-                        Get your dream car with no stress
+                      <h1 class="display-4 fw-bolder text-white mb-4 pb-3 animated slideInDown">
+                        Get your dream car  with no stress
                       </h1>
                       <div>
                         <a
