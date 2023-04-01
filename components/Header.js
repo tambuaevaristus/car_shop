@@ -61,41 +61,19 @@ export default function Header() {
             <Link href="/" class="nav-item nav-link active">
               Home
             </Link>
-            <a href="#about" class="nav-item nav-link">
+            <Link href="#about" class="nav-item nav-link">
               About
-            </a>
-            <a href="#services" class="nav-item nav-link">
+            </Link>
+            <Link href="#services" class="nav-item nav-link">
               Services
-            </a>
-            <a href="/shop" class="nav-item nav-link">
+            </Link>
+            <Link href="/shop" class="nav-item nav-link">
               Shop
-            </a>
-            {/* <div class="nav-item dropdown">
-              <a
-                href="#"
-                class="nav-link dropdown-toggle"
-                data-bs-toggle="dropdown"
-              >
-                Pages
-              </a>
-              <div class="dropdown-menu fade-up m-0">
-                <a href="booking.html" class="dropdown-item">
-                  Booking
-                </a>
-                <a href="team.html" class="dropdown-item">
-                  Technicians
-                </a>
-                <a href="testimonial.html" class="dropdown-item">
-                  Testimonial
-                </a>
-                <a href="404.html" class="dropdown-item">
-                  404 Page
-                </a>
-              </div>
-            </div> */}
-            <a href="contact.html" class="nav-item nav-link">
+            </Link>
+          
+            <Link href="/contact" class="nav-item nav-link">
               Contact
-            </a>
+            </Link>
           </div>
           <a
             href=""
