@@ -17,9 +17,10 @@ export default function Shop({cars}) {
                         src={car.images[0]}
                         className="w-100"
                       />
+                      {/* <p className="bg-danger border border-1 rounded-pill w-4">50% OFF</p> */}
                     </div>
                   </div>
-                  <div className="col-md-6 col-lg-6 col-xl-6">
+                  <div className="col-md-6 col-lg-6 col-xl-6 ">
                     <h5>{car.model}</h5>
                     <div className="d-flex flex-row">
                       <div className="text-danger mb-1 me-2">
@@ -28,9 +29,9 @@ export default function Shop({cars}) {
                         <i className="fa fa-star"></i>
                         <i className="fa fa-star"></i>
                       </div>
-                      <span>toyota 2015</span>
+                      <span>Toyota 2015</span>
                     </div>
-                    <div className="mt-1 mb-0 text-muted small">
+                    <div className="mt-1 mr-12 mb-0 text-muted small">
                       <span>{car.engine_type}</span>
                       <span className="text-primary"> • </span>
                       <span>{car.mileage}</span>
@@ -47,24 +48,24 @@ export default function Shop({cars}) {
                   </div>
                   <div className="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start">
                     <div className=" align-items-center mb-1">
-                      <h6 className="text-success">highest bid</h6>
+                      {/* <h6 className="text-secondary fw-bold">Highest bid</h6> */}
 
-                      <h4 className="mb-1 me-1">7000,000FCFA</h4>
-                      <span className="text-danger">
+                      <h4 className="mb-1 me-1 text-danger">6000,000FCFA</h4>
+                      <span className="text-secondary">
                         <s>6500,000FCFA</s>
                       </span>
                     </div>
                     <div className="d-flex flex-column mt-4">
                       <Link
                         href="/car/x"
-                        className="btn btn-primary btn-sm"
+                        className="btn btn-danger btn-sm"
                         type="button"
                       >
                         Details
                       </Link>
                       <Link
                         href="/bid/xx"
-                        className="btn btn-outline-primary btn-sm mt-2"
+                        className="btn  btn-sm mt-2 border border-danger"
                       >
                         Place A Bid
                       </Link>
