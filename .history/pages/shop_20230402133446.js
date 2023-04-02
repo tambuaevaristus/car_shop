@@ -4,8 +4,6 @@ import Shop from "@/components/Shop";
 import React from "react";
 
 export default function shop() {
-  const usersCollectionRef = collection(db, 'users')
-
   return (
     <div>
       <Header />
