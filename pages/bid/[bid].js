@@ -1,6 +1,7 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Head from "next/head";
+import Link from "next/link";
 import React from "react";
 
 export default function bid() {
@@ -67,7 +68,7 @@ export default function bid() {
                         <p className="">V8</p>
                         <p class="text-dark">Hybrid</p>
                         <p class="text-dark">4wheel</p>
-                        <p class="text-dark">Dizeil</p>
+                        <p class="text-dark">toyota</p>
                         <p class="text-dark">Dizeil</p>
 
                       </div>
@@ -86,9 +87,9 @@ export default function bid() {
                     <div class="sizes"></div>
                     <div class="cart d-flex mt-1 align-items-center">
                       <input type="text" className="form-control "  placeholder="Enter Amount"/>
-                      <button class="btn btn-danger text-uppercase mx-2 px-4">
-                        Bid
-                      </button>
+                     
+                      <Link href="/success" class="btn btn-danger text-uppercase mx-2 px-4"> Bid</Link>
+
                     
                     </div>
                   </div>
