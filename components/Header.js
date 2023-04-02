@@ -63,7 +63,7 @@ export default function Header() {
               About
             </Link>
             <Link href="#services" class="nav-item nav-link">
-              Services
+              Brands{" "}
             </Link>
             <Link href="/shop" class="nav-item nav-link">
               Shop
@@ -73,7 +73,6 @@ export default function Header() {
               Contact
             </Link>
           </div>
-          
         </div>
       </nav>
     </div>

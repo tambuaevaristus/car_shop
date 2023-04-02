@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export default function Banner() {
@@ -29,18 +30,18 @@ export default function Banner() {
                         Your safety is our Priority
                       </h1>
                       <div>
-                        <a
+                        <Link
                           href=""
                           class="btn btn-danger rounded-2 py-2  fw-bolder px-5 animated slideInDown"
                         >
                           Find Car
-                        </a>
-                        <a
+                        </Link>
+                        <Link
                           href=""
                           class="btn btn-danger mx-lg-3 rounded-2 py-2 fw-bolder my-sm-2 px-5 animated slideInDown"
                         >
                           Sell
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div class="col-lg-5 d-none d-lg-flex animated zoomIn">
@@ -68,18 +69,18 @@ export default function Banner() {
                         Get your dream car with no stress
                       </h1>
                       <div>
-                        <a
-                          href="/shop"
-                          class="btn btn-danger rounded-2 py-2 fw-bolder px-5 animated slideInDown"
+                      <Link
+                          href=""
+                          class="btn btn-danger rounded-2 py-2  fw-bolder px-5 animated slideInDown"
                         >
                           Find Car
-                        </a>
-                        <a
-                          href="/register"
-                          class="btn btn-danger mx-3 rounded-2 py-2 my-sm-2 fw-bolder px-5 animated slideInDown"
+                        </Link>
+                        <Link
+                          href=""
+                          class="btn btn-danger mx-lg-3 rounded-2 py-2 fw-bolder my-sm-2 px-5 animated slideInDown"
                         >
                           Sell
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div class="col-lg-5 d-none d-lg-flex animated zoomIn">

@@ -16,15 +16,10 @@ export default function Shop() {
                         src="https://images.cars.com/cldstatic/wp-content/uploads/bmw-x1-2023-01-exterior-front-angle-scaled.jpg"
                         class="w-100"
                       />
-                      <a href="#!">
-                        <div class="hover-overlay">
-                          <div class="mask"></div>
-                        </div>
-                      </a>
                     </div>
                   </div>
                   <div class="col-md-6 col-lg-6 col-xl-6">
-                    <h5>4Runner  Budox</h5>
+                    <h5>4Runner Budox</h5>
                     <div class="d-flex flex-row">
                       <div class="text-danger mb-1 me-2">
                         <i class="fa fa-star"></i>
@@ -44,7 +39,7 @@ export default function Shop() {
                         <br />
                       </span>
                     </div>
-                    
+
                     <p class="text-truncate mb-4 mb-md-0">
                       There are many variations of passages of Lorem Ipsum
                       available, but the majority have suffered alteration in
@@ -53,9 +48,8 @@ export default function Shop() {
                     </p>
                   </div>
                   <div class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start">
-
                     <div class=" align-items-center mb-1">
-                    <h6 class="text-success">highest bid</h6>
+                      <h6 class="text-success">highest bid</h6>
 
                       <h4 class="mb-1 me-1">7000,000FCFA</h4>
                       <span class="text-danger">
@@ -63,13 +57,16 @@ export default function Shop() {
                       </span>
                     </div>
                     <div class="d-flex flex-column mt-4">
-                      <Link href="/car/x" class="btn btn-primary btn-sm" type="button">
+                      <Link
+                        href="/car/x"
+                        class="btn btn-primary btn-sm"
+                        type="button"
+                      >
                         Details
                       </Link>
                       <Link
-                      href="/bid/xx"
+                        href="/bid/xx"
                         class="btn btn-outline-primary btn-sm mt-2"
-                        type="button"
                       >
                         Place A Bid
                       </Link>
@@ -91,11 +88,6 @@ export default function Shop() {
                         src="https://images.cars.com/cldstatic/wp-content/uploads/audi-q8-etron-2024-exterior-oem-05.jpg"
                         class="w-100"
                       />
-                      <a href="#!">
-                        <div class="hover-overlay">
-                          <div class="mask"></div>
-                        </div>
-                      </a>
                     </div>
                   </div>
                   <div class="col-md-6 col-lg-6 col-xl-6">
@@ -148,12 +140,12 @@ export default function Shop() {
                       <button class="btn btn-primary btn-sm" type="button">
                         Details
                       </button>
-                      <button
+                      <Link
+                        href="/bid/xx"
                         class="btn btn-outline-primary btn-sm mt-2"
-                        type="button"
                       >
-                        Add to wishlist
-                      </button>
+                        Place A Bid
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -172,11 +164,6 @@ export default function Shop() {
                         src="https://www.topgear.com/sites/default/files/news-listicle/image/buyers_guide_-_rolls_royce_wraith_2014_-_front_quarter_2.jpg"
                         class="w-100"
                       />
-                      <a href="#!">
-                        <div class="hover-overlay">
-                          <div class="mask"></div>
-                        </div>
-                      </a>
                     </div>
                   </div>
                   <div class="col-md-6 col-lg-6 col-xl-6">
@@ -229,12 +216,12 @@ export default function Shop() {
                       <button class="btn btn-primary btn-sm" type="button">
                         Details
                       </button>
-                      <button
+                      <Link
+                        href="/bid/xx"
                         class="btn btn-outline-primary btn-sm mt-2"
-                        type="button"
                       >
-                        Add to wishlist
-                      </button>
+                        Place A Bid
+                      </Link>
                     </div>
                   </div>
                 </div>

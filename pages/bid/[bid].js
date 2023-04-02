@@ -80,10 +80,8 @@ export default function bid() {
                       <s className="text-danger">6500000FCFA</s>
                     </div>
 
-                    
                    <p className="fw-bold">Place Bid</p>
                     
-
                     <div class="sizes"></div>
                     <div class="cart d-flex mt-1 align-items-center">
                       <input type="text" className="form-control "  placeholder="Enter Amount"/>

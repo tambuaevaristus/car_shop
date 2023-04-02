@@ -1,6 +1,7 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Head from "next/head";
+import Link from "next/link";
 import React from "react";
 
 export default function car() {
@@ -104,9 +105,9 @@ export default function car() {
                     <div class="sizes mt-5"></div>
                     <div class="cart mt-4 align-items-center">
                       {" "}
-                      <button class="btn btn-danger text-uppercase mr-2 px-4">
+                      <Link href="/bid/xx" class="btn btn-danger text-uppercase mr-2 px-4">
                         Place a Bid
-                      </button>
+                      </Link>
                     
                     </div>
                   </div>
