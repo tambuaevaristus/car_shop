@@ -248,9 +248,9 @@ export default function Shop() {
             </div>
           </div>
         </div>
-        {/* <div>
+        <div>
           <ShopPage />
-        </div> */}
+        </div>
       </div>
     </section>
   );
