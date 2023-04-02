@@ -1,0 +1,24 @@
+[debug] [2023-04-02T05:48:19.702Z] ----------------------------------------------------------------------
+[debug] [2023-04-02T05:48:19.715Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\DESMOND\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-04-02T05:48:19.717Z] CLI Version:   11.20.0
+[debug] [2023-04-02T05:48:19.718Z] Platform:      win32
+[debug] [2023-04-02T05:48:19.718Z] Node Version:  v16.15.0
+[debug] [2023-04-02T05:48:19.846Z] Time:          Sun Apr 02 2023 06:48:19 GMT+0100 (West Africa Standard Time)
+[debug] [2023-04-02T05:48:19.848Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-04-02T05:48:19.877Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-04-02T05:48:20.013Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-04-02T05:48:20.015Z] > authorizing via signed-in user (dezychris23@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\GENERAL\React\topbid\car_shop
+
+[warn] !  Unable to fetch the CLI MOTD and remote config. 
+[debug] [2023-04-02T05:48:41.237Z] Failed to fetch MOTD FirebaseError: Failed to make request to https://firebase-public.firebaseio.com/cli.json
