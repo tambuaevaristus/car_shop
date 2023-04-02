@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import ShopPage from "./ShopPage";
 
@@ -16,69 +17,63 @@ export default function Shop() {
                         src="https://images.cars.com/cldstatic/wp-content/uploads/bmw-x1-2023-01-exterior-front-angle-scaled.jpg"
                         className="w-100"
                       />
-                      <a href="#!">
-                        <div className="hover-overlay">
-                          <div className="mask"></div>
-                        </div>
-                      </a>
+
                     </div>
                   </div>
-                  <div className="col-md-6 col-lg-6 col-xl-6">
-                    <h5>4Runner  Budox</h5>
-                    <div className="d-flex flex-row">
-                      <div className="text-danger mb-1 me-2">
-                        <i className="fa fa-star"></i>
-                        <i className="fa fa-star"></i>
-                        <i className="fa fa-star"></i>
-                        <i className="fa fa-star"></i>
+                  <div class="col-md-6 col-lg-6 col-xl-6">
+                    <h5>4Runner Budox</h5>
+                    <div class="d-flex flex-row">
+                      <div class="text-danger mb-1 me-2">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
                       </div>
-                      <span>310</span>
+                      <span>toyota 2015</span>
                     </div>
-                    <div className="mt-1 mb-0 text-muted small">
-                      <span>100% cotton</span>
-                      <span className="text-primary"> • </span>
-                      <span>Light weight</span>
-                      <span className="text-primary"> • </span>
+     <span className="text-primary"> • </span>
+                    <div class="mt-1 mb-0 text-muted small">
+                      <span>Dizeil Engine</span>
+                      <span class="text-primary"> • </span>
+                      <span>5km /h</span>
+                      <span class="text-primary"> • </span>
                       <span>
-                        Best finish
+                        V8
                         <br />
                       </span>
                     </div>
-                    <div className="mb-2 text-muted small">
-                      <span>Unique design</span>
-                      <span className="text-primary"> • </span>
-                      <span>For men</span>
-                      <span className="text-primary"> • </span>
-                      <span>
-                        Casual
-                        <br />
-                      </span>
-                    </div>
-                    <p className="text-truncate mb-4 mb-md-0">
+
+
+                    <p class="text-truncate mb-4 mb-md-0">
                       There are many variations of passages of Lorem Ipsum
                       available, but the majority have suffered alteration in
                       some form, by injected humour, or randomised words which
                       dont look even slightly believable.
                     </p>
-                  </div>
-                  <div className="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start">
-                    <div className="d-flex flex-row align-items-center mb-1">
-                      <h4 className="mb-1 me-1">$13.99</h4>
-                      <span className="text-danger">
-                        <s>$20.99</s>
+
+                  <div class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start">
+                    <div class=" align-items-center mb-1">
+                      <h6 class="text-success">highest bid</h6>
+
+                      <h4 class="mb-1 me-1">7000,000FCFA</h4>
+                      <span class="text-danger">
+                        <s>6500,000FCFA</s>
                       </span>
                     </div>
-                    <h6 className="text-success">Free shipping</h6>
-                    <div className="d-flex flex-column mt-4">
-                      <button className="btn btn-primary btn-sm" type="button">
-                        Details
-                      </button>
-                      <button
-                        className="btn btn-outline-primary btn-sm mt-2"
+                    <div class="d-flex flex-column mt-4">
+                      <Link
+                        href="/car/x"
+                        class="btn btn-primary btn-sm"
                         type="button"
                       >
-                        Add to wishlist
-                      </button>
+                        Details
+                      </Link>
+                      <Link
+                        href="/bid/xx"
+                        class="btn btn-outline-primary btn-sm mt-2"
+                      >
+                        Place A Bid
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -97,11 +92,7 @@ export default function Shop() {
                         src="https://images.cars.com/cldstatic/wp-content/uploads/audi-q8-etron-2024-exterior-oem-05.jpg"
                         className="w-100"
                       />
-                      <a href="#!">
-                        <div className="hover-overlay">
-                          <div className="mask"></div>
-                        </div>
-                      </a>
+
                     </div>
                   </div>
                   <div className="col-md-6 col-lg-6 col-xl-6">
@@ -154,12 +145,13 @@ export default function Shop() {
                       <button className="btn btn-primary btn-sm" type="button">
                         Details
                       </button>
-                      <button
-                        className="btn btn-outline-primary btn-sm mt-2"
-                        type="button"
+
+                      <Link
+                        href="/bid/xx"
+                        class="btn btn-outline-primary btn-sm mt-2"
                       >
-                        Add to wishlist
-                      </button>
+                        Place A Bid
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -178,11 +170,6 @@ export default function Shop() {
                         src="https://www.topgear.com/sites/default/files/news-listicle/image/buyers_guide_-_rolls_royce_wraith_2014_-_front_quarter_2.jpg"
                         className="w-100"
                       />
-                      <a href="#!">
-                        <div className="hover-overlay">
-                          <div className="mask"></div>
-                        </div>
-                      </a>
                     </div>
                   </div>
                   <div className="col-md-6 col-lg-6 col-xl-6">
@@ -235,12 +222,11 @@ export default function Shop() {
                       <button className="btn btn-primary btn-sm" type="button">
                         Details
                       </button>
-                      <button
-                        className="btn btn-outline-primary btn-sm mt-2"
-                        type="button"
-                      >
-                        Add to wishlist
-                      </button>
+                      <Link
+                        href="/bid/xx"
+                        class="btn btn-outline-primary btn-sm mt-2"                      >
+                        Place A Bid
+                      </Link>
                     </div>
                   </div>
                 </div>
