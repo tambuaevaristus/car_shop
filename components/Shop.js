@@ -6,7 +6,7 @@ export default function Shop({cars}) {
   return (
     <section>
       <div className="container py-5">
-        {cars.map((car)=><div className="row justify-content-center mb-3">
+        {cars.map((car)=><div key={car.id} className="row justify-content-center mb-3">
           <div className="col-md-12 col-xl-10">
             <div className="card shadow-0 border rounded-3">
               <div className="card-body">
@@ -14,7 +14,7 @@ export default function Shop({cars}) {
                   <div className="col-md-12 col-lg-3 col-xl-3 mb-4 mb-lg-0">
                     <div className="bg-image hover-zoom ripple rounded ripple-surface">
                       <img
-                        src="https://images.cars.com/cldstatic/wp-content/uploads/bmw-x1-2023-01-exterior-front-angle-scaled.jpg"
+                        src={car.images[0]}
                         className="w-100"
                       />
                     </div>
