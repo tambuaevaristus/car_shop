@@ -8,7 +8,7 @@ import { db } from "../auth/firebase"
 
 export default function ShopPage() {
   const carsCollectionRef = collection(db, 'Cars')
-  const [cars, setCars] = useState("")
+  const [cars, setCars] = useState([])
 
   useEffect(() => {
 
@@ -19,6 +19,7 @@ export default function ShopPage() {
     }
     getCars()
 
+  // trunk-ignore(eslint/react-hooks/exhaustive-deps)
   },[])
 
   console.log("cars", cars)
@@ -26,12 +27,7 @@ export default function ShopPage() {
   return (
     <div>
       <Header />
-      <Shop />
-      <Shop />
-      <Shop />
-      <Shop />
-      <Shop />
-      <Shop />
+      <Shop cars = {cars}/>
       <Footer />
     </div>
   );

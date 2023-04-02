@@ -4,7 +4,7 @@ import Head from "next/head";
 import Link from "next/link";
 import React from "react";
 
-export default function car() {
+export default function bid() {
   return (
     <div>
       <Head>
@@ -60,54 +60,34 @@ export default function car() {
                       <h3>Toyota Corola</h3>
                     </div>
 
-                    <div class="d-flex justify-content-between ">
-                      <p className="">Model</p>
-                      <p class="text-dark">Toyota 2015</p>
-                    </div>
-
+                  
                     {/* <hr class="my-0" /> */}
                     <div class="card-body">
+                     
                       <div class="d-flex justify-content-between ">
-                        <p className="">Rating</p>
-                        <div class="d-flex flex-row justify-content-end mt-1 text-danger">
-                          <i class="fas fa-star"></i>
-                          <i class="fas fa-star"></i>
-                          <i class="fas fa-star"></i>
-                          <i class="fas fa-star"></i>
-                        </div>{" "}
-                      </div>
-                      <div class="d-flex justify-content-between ">
-                        <p className="">Highest bid</p>
-                        <p class="text-dark">2000,000XAF</p>
-                      </div>
-                      <div class="d-flex justify-content-between ">
-                        <p className="">Engine Type</p>
-                        <p class="text-dark">V8</p>
-                      </div>
-                      <div class="d-flex justify-content-between ">
-                        <p className="">Fuel Type</p>
-                        <p class="text-dark">Dizel</p>
-                      </div>
-                      <div class="d-flex justify-content-between ">
-                        <p className="">Mileage</p>
+                        <p className="">V8</p>
                         <p class="text-dark">Hybrid</p>
+                        <p class="text-dark">4wheel</p>
+                        <p class="text-dark">toyota</p>
+                        <p class="text-dark">Dizeil</p>
+
                       </div>
+                     
                     </div>
-                
+                    <div class="d-flex justify-content-between ">
+                      <p className="">Last Bids</p>
+                      <p class="text-dark">7000000FCFA </p>
+                      <s className="text-danger">6500000FCFA</s>
+                    </div>
+
+                   <p className="fw-bold">Place Bid</p>
                     
-                   <p className="fw-bold">Description</p>
-                    
-                    <p class="about">
-                      Shop from a wide range of t-shirt from orianz. Pefect for
-                      your everyday use, you could pair it with a stylish pair
-                      of jeans or trousers complete the look.
-                    </p>
-                    <div class="sizes mt-5"></div>
-                    <div class="cart mt-4 align-items-center">
-                      {" "}
-                      <Link href="/bid/xx" class="btn btn-danger text-uppercase mr-2 px-4">
-                        Place a Bid
-                      </Link>
+                    <div class="sizes"></div>
+                    <div class="cart d-flex mt-1 align-items-center">
+                      <input type="text" className="form-control "  placeholder="Enter Amount"/>
+                     
+                      <Link href="/success" class="btn btn-danger text-uppercase mx-2 px-4"> Bid</Link>
+
                     
                     </div>
                   </div>
