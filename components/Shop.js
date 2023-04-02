@@ -1,4 +1,5 @@
 import React from "react";
+import ShopPage from "./ShopPage";
 
 export default function Shop() {
   return (
@@ -247,6 +248,9 @@ export default function Shop() {
             </div>
           </div>
         </div>
+        {/* <div>
+          <ShopPage />
+        </div> */}
       </div>
     </section>
   );
