@@ -33,7 +33,7 @@ export default function Banner() {
                           href=""
                           class="btn btn-danger rounded-2 py-2  fw-bolder px-5 animated slideInDown"
                         >
-                          Buy
+                          Find Car
                         </a>
                         <a
                           href=""
@@ -65,17 +65,17 @@ export default function Banner() {
                         Car Servicing
                       </h6>
                       <h1 class="display-4 fw-bolder text-white mb-4 pb-3 animated slideInDown">
-                        Get your dream car  with no stress
+                        Get your dream car with no stress
                       </h1>
                       <div>
                         <a
-                          href=""
+                          href="/shop"
                           class="btn btn-danger rounded-2 py-2 fw-bolder px-5 animated slideInDown"
                         >
-                          Buy
+                          Find Car
                         </a>
                         <a
-                          href=""
+                          href="/register"
                           class="btn btn-danger mx-3 rounded-2 py-2 my-sm-2 fw-bolder px-5 animated slideInDown"
                         >
                           Sell

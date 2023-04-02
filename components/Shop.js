@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export default function Shop() {
@@ -31,28 +32,19 @@ export default function Shop() {
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
                       </div>
-                      <span>310</span>
+                      <span>toyota 2015</span>
                     </div>
                     <div class="mt-1 mb-0 text-muted small">
-                      <span>100% cotton</span>
+                      <span>Dizeil Engine</span>
                       <span class="text-primary"> • </span>
-                      <span>Light weight</span>
+                      <span>5km /h</span>
                       <span class="text-primary"> • </span>
                       <span>
-                        Best finish
+                        V8
                         <br />
                       </span>
                     </div>
-                    <div class="mb-2 text-muted small">
-                      <span>Unique design</span>
-                      <span class="text-primary"> • </span>
-                      <span>For men</span>
-                      <span class="text-primary"> • </span>
-                      <span>
-                        Casual
-                        <br />
-                      </span>
-                    </div>
+                    
                     <p class="text-truncate mb-4 mb-md-0">
                       There are many variations of passages of Lorem Ipsum
                       available, but the majority have suffered alteration in
@@ -61,23 +53,26 @@ export default function Shop() {
                     </p>
                   </div>
                   <div class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start">
-                    <div class="d-flex flex-row align-items-center mb-1">
-                      <h4 class="mb-1 me-1">$13.99</h4>
+
+                    <div class=" align-items-center mb-1">
+                    <h6 class="text-success">highest bid</h6>
+
+                      <h4 class="mb-1 me-1">7000,000FCFA</h4>
                       <span class="text-danger">
-                        <s>$20.99</s>
+                        <s>6500,000FCFA</s>
                       </span>
                     </div>
-                    <h6 class="text-success">Free shipping</h6>
                     <div class="d-flex flex-column mt-4">
-                      <button class="btn btn-primary btn-sm" type="button">
+                      <Link href="/car/x" class="btn btn-primary btn-sm" type="button">
                         Details
-                      </button>
-                      <button
+                      </Link>
+                      <Link
+                      href="/bid/xx"
                         class="btn btn-outline-primary btn-sm mt-2"
                         type="button"
                       >
-                        Add to wishlist
-                      </button>
+                        Place A Bid
+                      </Link>
                     </div>
                   </div>
                 </div>
