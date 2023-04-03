@@ -43,14 +43,14 @@ export default function Shop({ cars }) {
                   }
                 }} aria-label="Default select example">
                   <option selected>Manufacture Date</option>
-                  {cars.map((car) => <option key={cars.indexOf(car)} value="1">{car.manufacture_date}</option>)}
+                  {cars.map((car) => <option key={car.id} value="1">{car.manufacture_date}</option>)}
                 </select>
               </div>
             </div>
             <div class="col-lg-3 col-md-3">
               <div class="block d-flex">
                 <select class="form-select" aria-label="Default select example">
-                  {cars.map((car) => <option key={cars.indexOf(car)} value="1">{car.model}</option>)}
+                  {cars.map((car) => <option key={car.id} value="1">{car.model}</option>)}
                 </select>
               </div>
             </div>
@@ -58,7 +58,7 @@ export default function Shop({ cars }) {
               <div class="block d-flex">
                 <select class="form-select" aria-label="Default select example">
                   <option selected>By Fuel Type</option>
-                  {cars.map((car) => <option key={cars.indexOf(car)} value="1">{car.fuel_type}</option>)}
+                  {cars.map((car) => <option key={car.id} value="1">{car.fuel_type}</option>)}
                 </select>
               </div>
             </div>
@@ -67,7 +67,7 @@ export default function Shop({ cars }) {
               <div class="block d-flex">
                 <select class="form-select" aria-label="Default select example">
                   <option selected>By Mileage</option>
-                  {cars.map((car) => <option key={cars.indexOf(car)} value="1">{car.mileage}</option>)}
+                  {cars.map((car) => <option key={car.id} value="1">{car.mileage}</option>)}
                 </select>
                 <button class="btn btn-danger mx-2">SEARCH</button>
               </div>
