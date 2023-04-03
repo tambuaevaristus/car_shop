@@ -23,14 +23,15 @@ export default function CarList() {
   console.log("home", cars)
 
   return (
-    <div>
+    <div className='bg-light py-5'>
 
-      <div className='container'>
-        <div className='row'>
-          {cars.map((car)=><Car car={car} key={car.id} />)}
-        </div>
-
+   {cars.lengthb!= 0 ? <div className='container'>
+      <h1 className='text-secondary pt-4'><strong>Latest Cars</strong></h1>
+      <div className='row'>
+        {cars.slice(0,3).map((car)=><Car car={car} key={car.id} />)}
       </div>
+
+    </div> : <div className="w-100 d-flex justify-content-center"><img src="img/loader_gif.gif"/></div>}
     </div>
   );
 }

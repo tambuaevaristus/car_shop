@@ -72,7 +72,7 @@ export default function Footer() {
                 />
                 <button
                   type="button"
-                  class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"
+                  class="btn btn-danger py-2 position-absolute top-0 end-0 mt-2 me-2"
                 >
                   SignUp
                 </button>

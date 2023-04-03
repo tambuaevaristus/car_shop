@@ -35,14 +35,14 @@ export default function Another() {
                         <div class="tab-pane fade show active" id="tab-pane-1">
                             <div class="row g-4">
                                 <div class="col-md-6" >
-                                    <div class="position-relative h-100">
-                                        <img class="position-absolute img-fluid w-100 h-100" src="img/mechanich.png"
+                                    <div class="position-relative overflow-hidden h-100">
+                                        <img class="position-absolute  object-fit-scale w-100" src="img/mechanich.png"
                                             alt=""/>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <h3 class="mb-3">15 Years Of Experience In Auto Servicing</h3>
-                                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                                    <p class="mb-4">WE have the best engineers that check and confirm that a car is in it best states because our customers safety is our priority. Also for our customers, the sellers be rest assured they get their money immediately a sale is done. </p>
                                     <p><i class="fa fa-check text-success me-3"></i>Quality Servicing</p>
                                     <p><i class="fa fa-check text-success me-3"></i>Expert Workers</p>
                                     <p><i class="fa fa-check text-success me-3"></i>Modern Equipment</p>
@@ -60,7 +60,7 @@ export default function Another() {
                                 </div>
                                 <div class="col-md-6">
                                     <h3 class="mb-3">15 Years Of Experience In Auto Servicing</h3>
-                                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                                    <p class="mb-4">WE have the best engineers that check and confirm that a car is in it best states because our customers safety is our priority. Also for our customers, the sellers be rest assured they get their money immediately a sale is done. </p>
                                     <p><i class="fa fa-check text-success me-3"></i>Quality Servicing</p>
                                     <p><i class="fa fa-check text-success me-3"></i>Expert Workers</p>
                                     <p><i class="fa fa-check text-success me-3"></i>Modern Equipment</p>
@@ -78,7 +78,7 @@ export default function Another() {
                                 </div>
                                 <div class="col-md-6">
                                     <h3 class="mb-3">15 Years Of Experience In Auto Servicing</h3>
-                                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                                    <p class="mb-4">WE have the best engineers that check and confirm that a car is in it best states because our customers safety is our priority. Also for our customers, the sellers be rest assured they get their money immediately a sale is done. </p>
                                     <p><i class="fa fa-check text-success me-3"></i>Quality Servicing</p>
                                     <p><i class="fa fa-check text-success me-3"></i>Expert Workers</p>
                                     <p><i class="fa fa-check text-success me-3"></i>Modern Equipment</p>
@@ -96,7 +96,7 @@ export default function Another() {
                                 </div>
                                 <div class="col-md-6">
                                     <h3 class="mb-3">15 Years Of Experience In Auto Servicing</h3>
-                                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                                    <p class="mb-4">WE have the best engineers that check and confirm that a car is in it best states because our customers safety is our priority. Also for our customers, the sellers be rest assured they get their money immediately a sale is done. </p>
                                     <p><i class="fa fa-check text-success me-3"></i>Quality Servicing</p>
                                     <p><i class="fa fa-check text-success me-3"></i>Expert Workers</p>
                                     <p><i class="fa fa-check text-success me-3"></i>Modern Equipment</p>
