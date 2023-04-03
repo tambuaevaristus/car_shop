@@ -62,8 +62,8 @@ export default function Header() {
             <Link href="#about" className="nav-item nav-link">
               About
             </Link>
-            <Link href="#services" className="nav-item nav-link">
-              Brands{" "}
+            <Link href="/addCars" className="nav-item nav-link">
+              Dashboard{" "}
             </Link>
             <Link href="/shop" className="nav-item nav-link">
               Shop
