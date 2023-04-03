@@ -1,6 +1,28 @@
 import React from "react";
+import { auth } from "/firebase";
+import { signInWithPopup, GoogleAuthProvider } from "firebase/auth";
+import Link from "next/link";
+import { useRouter } from "next/router";
 
-export default function login() {
+export default function Login() {
+  const router = useRouter();
+
+  const provider = new GoogleAuthProvider();
+
+  const googleAuth = () => {
+    console.log("in func");
+    signInWithPopup(auth, provider)
+      .then((result) => {
+        const user = result.user;
+        console.log("user =>", user);
+        router.back();
+      })
+      .catch((error) => {
+        const errorMessage = error.message;
+        console.log("error =>", errorMessage);
+      });
+  };
+
   return (
     <div>
       <section class="h-100 gradient-form bg-dark">
@@ -18,13 +40,15 @@ export default function login() {
                   </div>
                   <div class="col-lg-6">
                     <div class="card-body p-md-5 mx-md-4">
-                      <div class="text-center">
-                        <img
-                          src="/img/Topbid logo 3ai.png"
-                          width="100px"
-                          alt="logo"
-                        />
-                      </div>
+                      <Link href="/">
+                        <div class="text-center">
+                          <img
+                            src="/img/Topbid logo 3ai.png"
+                            width="100px"
+                            alt="logo"
+                          />
+                        </div>
+                      </Link>
 
                       <form className="pt-5">
                         <p className="fw-bold mt-3">
@@ -59,6 +83,7 @@ export default function login() {
                           <button
                             class="btn btn-danger fa-lg mb-3 form-control"
                             type="button"
+                            onClick={googleAuth}
                           >
                             Signin with Google
                           </button>
