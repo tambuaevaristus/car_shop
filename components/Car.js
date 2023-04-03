@@ -15,6 +15,7 @@ export default function Car({car}) {
             src={car.images[0]}
             className="card-img-top"
             alt="Laptop"
+            height="300px"
           />
           {/* <a href="#!">
                     <div className="mask"></div>

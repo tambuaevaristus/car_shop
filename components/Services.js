@@ -12,27 +12,27 @@ export default function Services() {
                         <div className="ps-4">
                             <h5 className="mb-3 mt-1">Safety</h5>
                             <p>Our vehicles have maximum confort. Your safety is our priority</p>
-                            <a className="text-secondary border-bottom" href="">Read More</a>
+                            {/* <a class="text-secondary border-bottom" href="">Read More</a> */}
                         </div>
                     </div>
                 </div>
-                <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div className="d-flex bg-light py-5 px-4">
-                        <i className="fa fa-users-cog fa-2x text-secondary flex-shrink-0"></i>
-                        <div className="ps-4">
-                            <h5 className="mb-3 mt-1">Speed</h5>
-                            <p>Our Vehicles are faster </p>
-                            <a className="text-secondary border-bottom" href="">Read More</a>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="d-flex bg-light py-5 px-4">
+                        <i class="fa fa-users-cog fa-2x text-secondary flex-shrink-0"></i>
+                        <div class="ps-4">
+                            <h5 class="mb-3 mt-1">Speed</h5>
+                            <p>Our Vehicles give you the speed your heart desire </p>
+                            {/* <a class="text-secondary border-bottom" href="">Read More</a> */}
                         </div>
                     </div>
                 </div>
-                <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div className="d-flex py-5 px-4">
-                        <i className="fa fa-tools fa-2x text-secondary flex-shrink-0"></i>
-                        <div className="ps-4">
-                            <h5 className="mb-3 mt-1">Excitement</h5>
-                            <p>You enjoy while you ride</p>
-                            <a className="text-secondary border-bottom" href="">Read More</a>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="d-flex py-5 px-4">
+                        <i class="fa fa-tools fa-2x text-secondary flex-shrink-0"></i>
+                        <div class="ps-4">
+                            <h5 class="mb-3 mt-1">Excitement</h5>
+                            <p>Enjoy while you drive your dream car</p>
+                            {/* <a class="text-secondary border-bottom" href="">Read More</a> */}
                         </div>
                     </div>
                 </div>
