@@ -25,7 +25,7 @@ export default function ShopPage() {
   return (
     <div>
       <Header />
-      {cars.length != 0 && <Shop cars = {cars}/>}
+      {cars.length != 0 ? <Shop cars = {cars}/> : <div className="w-100 d-flex justify-content-center"><img src="img/loader_gif.gif"/></div>}
       <Footer />
     </div>
   );
