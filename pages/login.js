@@ -31,7 +31,7 @@ export default function Login() {
             <div class="col-xl-10">
               <div class="card rounded-3 text-black">
                 <div class="row">
-                  <div class="col-lg-6 d-flex align-items-center gradient-custom-2">
+                  <div class="col-lg-6 d-flex d-none d-lg-flex align-items-center gradient-custom-2">
                     <img
                       src="https://img.freepik.com/free-photo/automobile-details-close-up-new-car_1303-26484.jpg?w=1380&t=st=1680446446~exp=1680447046~hmac=027e379754ca3f6fcd2a927b34f31c9baeab6b32a44428b4f7d57074f4bd6825"
                       alt=""
@@ -44,7 +44,7 @@ export default function Login() {
                         <div class="text-center">
                           <img
                             src="/img/Topbid logo 3ai.png"
-                            width="100px"
+                            width="150px"
                             alt="logo"
                           />
                         </div>
