@@ -13,10 +13,15 @@ export default function CarList() {
     const getCars= async () => {
       const data = await getDocs(carsCollectionRef);
       // setCars(data)
-      setCars(data.docs.map((post) => ({ ...post.data(), id: post.id })));
-    };
-    getCars();
-  }, []);
+      setCars(data.docs.map((post) => ({ ...post.data(), id: post.id })))
+    }
+    getCars()
+
+  // trunk-ignore(eslint/react-hooks/exhaustive-deps)
+  },[])
+
+  console.log("home", cars)
+
   return (
     <div className='bg-light py-5'>
 

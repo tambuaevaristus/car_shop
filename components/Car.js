@@ -15,7 +15,11 @@ export default function Car({car}) {
             src={car.images[0]}
             className="card-img-top"
             alt="Laptop"
+            height="300px"
           />
+          {/* <a href="#!">
+                    <div className="mask"></div>
+                  </a> */}
         
         <div className="card-body pb-0 px-5">
           <div className="d-flex py-4 justify-content-between">
@@ -44,9 +48,9 @@ export default function Car({car}) {
             </div>
           </div>
         </div>
-        <div class="card-body">
-          <div class="d-flex justify-content-between align-items-center mb-1">
-            <Link href={"/cars/"+id} class="btn mx-auto text-danger ">
+        <div className="card-body">
+          <div className="d-flex justify-content-between align-items-center mb-1">
+            <Link href="/cars/x" className="btn mx-auto text-danger ">
               View details
             </Link>
           </div>
