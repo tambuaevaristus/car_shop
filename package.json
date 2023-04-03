@@ -12,6 +12,7 @@
     "amount": "^1.0.6",
     "animate.css": "^4.1.1",
     "bootstrap": "^5.2.3",
+    "bootstrap-loader": "^4.0.4",
     "eslint": "8.37.0",
     "eslint-config-next": "13.2.4",
     "firebase": "^9.19.1",

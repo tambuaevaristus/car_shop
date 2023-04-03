@@ -25,7 +25,7 @@ export default function ShopPage() {
   return (
     <div>
       <Header />
-      {cars.length != 0 && <Shop cars = {cars}/>}
+      {cars.length != 0 ? <Shop cars = {cars}/> : <div>loading...</div>}
       <Footer />
     </div>
   );
