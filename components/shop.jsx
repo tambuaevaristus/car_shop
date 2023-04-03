@@ -55,18 +55,16 @@ export default function Shop({ cars }) {
     <section>
       <div className="py-5"></div>
       <div className="py-3"></div>
-      <div class="advance-search col-10 px-5 container mx-auto py-5 border ">
+      <div className="advance-search col-10 px-5 container mx-auto py-5 border ">
         <form action="#" className="">
-          <div class="row mx-auto">
-            <div class="col-lg-3 col-md-3">
-              <div class="block d-flex">
-                <select
-                  class="form-select"
-                  onChange={(e) => {
-                    sortByManufactureDate(e.target.value);
-                  }}
-                  aria-label="Default select example"
-                >
+          <div className="row mx-auto">
+            <div className="col-lg-3 col-md-3">
+              <div className="block d-flex">
+                <select className="form-select" onChange={(e) => {
+
+                  sortByManufactureDate(e.target.value)
+
+                }} aria-label="Default select example">
                   <option selected>Manufacture Date</option>
                   {cars.map((car) => (
                     <option key={car.id}>{car.manufacture_date}</option>
@@ -74,31 +72,21 @@ export default function Shop({ cars }) {
                 </select>
               </div>
             </div>
-            <div class="col-lg-3 col-md-3">
-              <div class="block d-flex">
-                <select
-                  class="form-select"
-                  onChange={(e) => {
-                    sortByModel(e.target.value);
-                  }}
-                  aria-label="Default select example"
-                >
-                  <option>By Model</option>
-                  {cars.map((car) => (
-                    <option key={car.id}>{car.model}</option>
-                  ))}
+            <div className="col-lg-3 col-md-3">
+              <div className="block d-flex">
+                <select className="form-select" onChange={(e)=>{
+                  sortByModel(e.target.value)
+                }} aria-label="Default select example">
+                  <option >By Model</option>
+                  {cars.map((car) => <option key={car.id} >{car.model}</option>)}
                 </select>
               </div>
             </div>
-            <div class="col-lg-3 col-md-3">
-              <div class="block d-flex">
-                <select
-                  class="form-select"
-                  onChange={(e) => {
-                    sortByFuelType(e.target.value);
-                  }}
-                  aria-label="Default select example"
-                >
+            <div className="col-lg-3 col-md-3">
+              <div className="block d-flex">
+                <select className="form-select" onChange={(e)=>{
+                  sortByFuelType(e.target.value)
+                }} aria-label="Default select example">
                   <option selected>By Fuel Type</option>
                   {cars.map((car) => (
                     <option key={car.id}>{car.fuel_type}</option>
@@ -107,21 +95,17 @@ export default function Shop({ cars }) {
               </div>
             </div>
 
-            <div class="col-lg-3 col-md-3">
-              <div class="block d-flex">
-                <select
-                  class="form-select"
-                  onChange={(e) => {
-                    sortByMileage(e.target.value);
-                  }}
-                  aria-label="Default select example"
-                >
+            <div className="col-lg-3 col-md-3">
+              <div className="block d-flex">
+                <select className="form-select" onChange={(e)=>{
+                  sortByMileage(e.target.value)
+                }} aria-label="Default select example">
                   <option selected>By Mileage</option>
                   {cars.map((car) => (
                     <option key={car.id}>{car.mileage}</option>
                   ))}
                 </select>
-                <button class="btn btn-danger mx-2">SEARCH</button>
+                <button className="btn btn-danger mx-2">SEARCH</button>
               </div>
             </div>
           </div>
