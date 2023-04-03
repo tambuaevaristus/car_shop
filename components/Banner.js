@@ -32,13 +32,13 @@ export default function Banner() {
                       </h1>
                       <div>
                         <Link
-                          href=""
+                          href="/shop"
                           className="btn btn-danger rounded-2 py-2  fw-bolder px-5 animated slideInDown"
                         >
                           Find Car
                         </Link>
                         <Link
-                          href=""
+                          href="/addCars"
                           className="btn btn-danger mx-lg-3 rounded-2 py-2 fw-bolder my-sm-2 px-5 animated slideInDown"
                         >
                           Sell Dashboard
@@ -73,13 +73,13 @@ export default function Banner() {
                       </h1>
                       <div>
                       <Link
-                          href=""
+                          href="/shop"
                           className="btn btn-danger rounded-2 py-2  fw-bolder px-5 animated slideInDown"
                         >
                           Find Car
                         </Link>
                         <Link
-                          href="/seller/dashboard"
+                          href="/addCars"
                           class="btn btn-danger mx-lg-3 rounded-2 py-2 fw-bolder my-sm-2 px-5 animated slideInDown"
                         >
                           Seller Dashboard
