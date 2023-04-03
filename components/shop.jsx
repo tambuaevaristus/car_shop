@@ -1,20 +1,44 @@
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 import amount from "amount";
 import { collection, query, where, getDocs } from "firebase/firestore";
 import { db } from "../firebase";
 
 
 export default function Shop({ cars }) {
-  const carsRef = collection(db, "Cars");
+  const [carStore, setCarsStore] = useState(cars)
 
-   async function sortByManufactureDate(date) {
-    const q = query(carsRef, where("manufacture_date", "==", date));
-    const querySnapshot = await getDocs(q);
-    querySnapshot.forEach((doc) => {
-      console.log(doc);
-    });
-
+  async function sortByManufactureDate(date) {
+    if (date != "Manufacture Date") {
+      const fiteredCars = cars.filter((car) => car.manufacture_date == date)
+      setCarsStore(fiteredCars)
+    } else {
+      setCarsStore(cars)
+    }
+  }
+  async function sortByModel(model) {
+    if (model != "By Model") {
+      const fiteredCars = cars.filter((car) => car.model == model)
+      setCarsStore(fiteredCars)
+    } else {
+      setCarsStore(cars)
+    }
+  }
+  async function sortByFuelType(fuel_type) {
+    if (fuel_type != "By Fuel Type") {
+      const fiteredCars = cars.filter((car) => car.fuel_type == fuel_type)
+      setCarsStore(fiteredCars)
+    } else {
+      setCarsStore(cars)
+    }
+  }
+  async function sortByMileage(mileage) {
+    if (mileage != "By Mileage") {
+      const fiteredCars = cars.filter((car) => car.mileage == mileage)
+      setCarsStore(fiteredCars)
+    } else {
+      setCarsStore(cars)
+    }
   }
 
   function secondHighest(car) {
@@ -37,37 +61,44 @@ export default function Shop({ cars }) {
           <div class="row mx-auto">
             <div class="col-lg-3 col-md-3">
               <div class="block d-flex">
-                <select class="form-select" onChange={(e)=>{
-                  if(e.target.value != "Manufacture Date"){
-                    sortByManufactureDate(e.target.value)
-                  }
+                <select class="form-select" onChange={(e) => {
+
+                  sortByManufactureDate(e.target.value)
+
                 }} aria-label="Default select example">
                   <option selected>Manufacture Date</option>
-                  {cars.map((car) => <option key={car.id} value="1">{car.manufacture_date}</option>)}
+                  {cars.map((car) => <option key={car.id} >{car.manufacture_date}</option>)}
                 </select>
               </div>
             </div>
             <div class="col-lg-3 col-md-3">
               <div class="block d-flex">
-                <select class="form-select" aria-label="Default select example">
-                  {cars.map((car) => <option key={car.id} value="1">{car.model}</option>)}
+                <select class="form-select" onChange={(e)=>{
+                  sortByModel(e.target.value)
+                }} aria-label="Default select example">
+                  <option >By Model</option>
+                  {cars.map((car) => <option key={car.id} >{car.model}</option>)}
                 </select>
               </div>
             </div>
             <div class="col-lg-3 col-md-3">
               <div class="block d-flex">
-                <select class="form-select" aria-label="Default select example">
+                <select class="form-select" onChange={(e)=>{
+                  sortByFuelType(e.target.value)
+                }} aria-label="Default select example">
                   <option selected>By Fuel Type</option>
-                  {cars.map((car) => <option key={car.id} value="1">{car.fuel_type}</option>)}
+                  {cars.map((car) => <option key={car.id} >{car.fuel_type}</option>)}
                 </select>
               </div>
             </div>
 
             <div class="col-lg-3 col-md-3">
               <div class="block d-flex">
-                <select class="form-select" aria-label="Default select example">
+                <select class="form-select" onChange={(e)=>{
+                  sortByMileage(e.target.value)
+                }} aria-label="Default select example">
                   <option selected>By Mileage</option>
-                  {cars.map((car) => <option key={car.id} value="1">{car.mileage}</option>)}
+                  {cars.map((car) => <option key={car.id} >{car.mileage}</option>)}
                 </select>
                 <button class="btn btn-danger mx-2">SEARCH</button>
               </div>
@@ -76,7 +107,7 @@ export default function Shop({ cars }) {
         </form>
       </div>
       <div className="container py-5">
-        {cars.map((car) =>
+        {carStore.map((car) =>
           <div key={car.id} className="row justify-content-center mb-3">
             <div className="col-md-12 col-xl-10">
               <div className="card shadow-0 border rounded-3">

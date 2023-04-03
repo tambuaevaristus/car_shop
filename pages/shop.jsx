@@ -22,12 +22,10 @@ export default function ShopPage() {
   // trunk-ignore(eslint/react-hooks/exhaustive-deps)
   },[])
 
-  console.log("cars", cars)
-
   return (
     <div>
       <Header />
-      <Shop cars = {cars}/>
+      {cars.length != 0 && <Shop cars = {cars}/>}
       <Footer />
     </div>
   );
