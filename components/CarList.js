@@ -32,5 +32,5 @@ export default function CarList() {
 
       </div>
     </div>
-  )
+  );
 }

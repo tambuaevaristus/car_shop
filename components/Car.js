@@ -3,7 +3,6 @@ import React from "react";
 import amount from "amount";
 
 export default function Car({car}) {
-  console.log("sd", Math.max(230,500));
   return (
     // <div className="col-lg-4 p-3 py-4 col-md-4 col-12">
 

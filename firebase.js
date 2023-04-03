@@ -1,4 +1,5 @@
 // import {getAuth,GoogleAuthProvider} from "firebase/auth";
+import { getAuth } from "@firebase/auth";
 import { initializeApp } from "firebase/app";
 // import {getFirestore, collection, getDocs} from "firebase/firestore/lite"
 import { getFirestore } from "firebase/firestore";
@@ -17,10 +18,9 @@ const firebaseConfig = {
   messagingSenderId: "981137723243",
   appId: "1:981137723243:web:eadd4ae7defc918284462e"
 };
-
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-// const auth = getAuth(app)
+export const auth = getAuth(app)
 export const db = getFirestore(app);
 // const provider = new GoogleAuthProvider();
 // export {auth,provider};

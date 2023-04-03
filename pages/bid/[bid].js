@@ -1,10 +1,23 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import { auth } from "@/firebase";
+import { onAuthStateChanged } from "@firebase/auth";
 import Head from "next/head";
 import Link from "next/link";
+import Router from "next/router";
 import React from "react";
 
 export default function bid() {
+
+    const router = Router;
+    auth.onAuthStateChanged((user)=>{
+        if(user){
+
+        }else{
+            router.push("/login")
+        }
+    })
+
   return (
     <div>
       <Head>
@@ -69,7 +82,7 @@ export default function bid() {
                         <p class="text-dark">Hybrid</p>
                         <p class="text-dark">4wheel</p>
                         <p class="text-dark">toyota</p>
-                        <p class="text-dark">Dizeil</p>
+                        <p class="text-dark">Dizel</p>
 
                       </div>
                      
