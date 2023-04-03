@@ -58,7 +58,7 @@ export default function Car() {
       document.getElementById('countdown').innerHTML += seconds + 'secs';
     }
 
-
+// timer = setInterval(showRemaining,_second)
     return (
       <div>
         <Head>
