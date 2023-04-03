@@ -50,7 +50,7 @@ export default function Car({car}) {
         </div>
         <div className="card-body">
           <div className="d-flex justify-content-between align-items-center mb-1">
-            <Link href="/cars/x" className="btn mx-auto text-danger ">
+            <Link href={"/cars/"+car.id} className="btn mx-auto text-danger ">
               View details
             </Link>
           </div>

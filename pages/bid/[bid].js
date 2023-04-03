@@ -4,12 +4,14 @@ import { auth } from "@/firebase";
 import { onAuthStateChanged } from "@firebase/auth";
 import Head from "next/head";
 import Link from "next/link";
-import Router from "next/router";
-import React from "react";
+import Router, { useRouter } from "next/router";
+import React, { useEffect, useState } from "react";
 
-export default function bid() {
+export default function Bid() {
+    const [car, setCar] = useState(null);
 
-    const router = Router;
+
+    const router = useRouter();
     auth.onAuthStateChanged((user)=>{
         if(user){
 
@@ -17,7 +19,25 @@ export default function bid() {
             router.push("/login")
         }
     })
+    const id = router.asPath.split("/cars/")[1];
+  
+    useEffect(() => {
+      (async () => {
+        if (!id) return false;
+        const carRef = doc(db, "Cars", id);
+        const carr = await getDoc(carRef);
+        console.log(car);
 
+        if (carr.exists()) {
+          const data = carr.data();
+          setCar(data);
+        } else {
+          console.log("no data");
+        }
+      })();
+    }, [id]);
+
+  
   return (
     <div>
       <Head>
@@ -70,7 +90,7 @@ export default function bid() {
                 <div class="col-md-6">
                   <div class="card-body pb-0 px-4">
                     <div class="d-flex py-4 justify-content-between">
-                      <h3>Toyota Corola</h3>
+                      <h3>Toyota</h3>
                     </div>
 
                   
