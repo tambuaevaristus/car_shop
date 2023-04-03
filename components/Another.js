@@ -29,34 +29,9 @@ export default function Another() {
                             <h4 className="m-0">Oil Changing</h4>
                         </button>
                     </div>
-                    <div class="col-md-6">
-                      <h3 class="mb-3">
-                        15 Years Of Experience In Auto Servicing
-                      </h3>
-                      <p class="mb-4">
-                        We have the best engineers that check and confirm that a
-                        car is it best state because our constomer safty is our
-                        priority Also for our costomer, the sellers be rest
-                        assured the get thier money immediately a sale is done
-                        and the buyer gets his car
-                      </p>
-                      <p>
-                        <i class="fa fa-check text-secondary me-3"></i>Quality
-                        Servicing
-                      </p>
-                      <p>
-                        <i class="fa fa-check text-secondary me-3"></i>Sufficient Guaranty
-                      </p>
-                      <p>
-                        <i class="fa fa-check text-secondary me-3"></i>Good Customer Service
-                      </p>
-                      <a href="" class="btn btn-danger py-3 px-5 mt-3">
-                        Read More<i class="fa fa-arrow-right ms-3"></i>
-                      </a>
-                    </div>
+                  
                   </div>
-                </div>
-                <div className="col-lg-8">
+                  <div className="col-lg-8">
                     <div className="tab-content w-100">
                         <div className="tab-pane fade show active" id="tab-pane-1">
                             <div className="row g-4">
@@ -69,9 +44,9 @@ export default function Another() {
                                 <div className="col-md-6">
                                     <h3 className="mb-3">15 Years Of Experience In Auto Servicing</h3>
                                     <p className="mb-4">WE have the best engineers that check and confirm that a car is in it best states because our customers safety is our priority. Also for our customers, the sellers be rest assured they get their money immediately a sale is done. </p>
-                                    <p><i className="fa fa-check text-success me-3"></i>Quality Servicing</p>
-                                    <p><i className="fa fa-check text-success me-3"></i>Expert Workers</p>
-                                    <p><i className="fa fa-check text-success me-3"></i>Modern Equipment</p>
+                                    <p><i className="fa fa-check text-secondary me-3"></i>Quality Servicing</p>
+                                    <p><i className="fa fa-check text-secondary me-3"></i>Expert Workers</p>
+                                    <p><i className="fa fa-check text-secondary me-3"></i>Modern Equipment</p>
                                     <a href="" className="btn btn-danger py-3 px-5 mt-3">Read More<i className="fa fa-arrow-right ms-3"></i></a>
                                 </div>
                             </div>
@@ -87,9 +62,9 @@ export default function Another() {
                                 <div className="col-md-6">
                                     <h3 className="mb-3">15 Years Of Experience In Auto Servicing</h3>
                                     <p className="mb-4">WE have the best engineers that check and confirm that a car is in it best states because our customers safety is our priority. Also for our customers, the sellers be rest assured they get their money immediately a sale is done. </p>
-                                    <p><i className="fa fa-check text-success me-3"></i>Quality Servicing</p>
-                                    <p><i className="fa fa-check text-success me-3"></i>Expert Workers</p>
-                                    <p><i className="fa fa-check text-success me-3"></i>Modern Equipment</p>
+                                    <p><i className="fa fa-check text-secondary me-3"></i>Quality Servicing</p>
+                                    <p><i className="fa fa-check text-secondary me-3"></i>Expert Workers</p>
+                                    <p><i className="fa fa-check text-secondary me-3"></i>Modern Equipment</p>
                                     <a href="" className="btn btn-danger py-3 px-5 mt-3">Read More<i className="fa fa-arrow-right ms-3"></i></a>
                                 </div>
                             </div>
@@ -105,9 +80,9 @@ export default function Another() {
                                 <div className="col-md-6">
                                     <h3 className="mb-3">15 Years Of Experience In Auto Servicing</h3>
                                     <p className="mb-4">WE have the best engineers that check and confirm that a car is in it best states because our customers safety is our priority. Also for our customers, the sellers be rest assured they get their money immediately a sale is done. </p>
-                                    <p><i className="fa fa-check text-success me-3"></i>Quality Servicing</p>
-                                    <p><i className="fa fa-check text-success me-3"></i>Expert Workers</p>
-                                    <p><i className="fa fa-check text-success me-3"></i>Modern Equipment</p>
+                                    <p><i className="fa fa-check text-secondary me-3"></i>Quality Servicing</p>
+                                    <p><i className="fa fa-check text-secondary me-3"></i>Expert Workers</p>
+                                    <p><i className="fa fa-check text-secondary me-3"></i>Modern Equipment</p>
                                     <a href="" className="btn btn-danger py-3 px-5 mt-3">Read More<i className="fa fa-arrow-right ms-3"></i></a>
                                 </div>
                             </div>
@@ -123,15 +98,17 @@ export default function Another() {
                                 <div className="col-md-6">
                                     <h3 className="mb-3">15 Years Of Experience In Auto Servicing</h3>
                                     <p className="mb-4">WE have the best engineers that check and confirm that a car is in it best states because our customers safety is our priority. Also for our customers, the sellers be rest assured they get their money immediately a sale is done. </p>
-                                    <p><i className="fa fa-check text-success me-3"></i>Quality Servicing</p>
-                                    <p><i className="fa fa-check text-success me-3"></i>Expert Workers</p>
-                                    <p><i className="fa fa-check text-success me-3"></i>Modern Equipment</p>
+                                    <p><i className="fa fa-check text-secondary me-3"></i>Quality Servicing</p>
+                                    <p><i className="fa fa-check text-secondary me-3"></i>Expert Workers</p>
+                                    <p><i className="fa fa-check text-secondary me-3"></i>Modern Equipment</p>
                                     <a href="" className="btn btn-danger py-3 px-5 mt-3">Read More<i className="fa fa-arrow-right ms-3"></i></a>
                                 </div>
                             </div>
                         </div>
                     </div>
                   </div>
+                </div>
+          
                 </div>
                 <div class="tab-pane fade" id="tab-pane-4">
                   <div class="row g-4">

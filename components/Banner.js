@@ -55,6 +55,8 @@ export default function Banner() {
             <div className="carousel-item active">
               <img
                 className="w-100"
+                height="650px"
+
                 src="https://img.freepik.com/free-vector/black-cloth-drapery-covering-car-silk-fabric-hanging-gift-surprise-reveal_575670-656.jpg?w=1380&t=st=1680383926~exp=1680384526~hmac=a3f681216b673e10a77cc1f98c9d1e46f58c820cbf5a43f41ed0339b914321e1"
                 alt="Image"
               />
