@@ -41,7 +41,7 @@ export default function Banner() {
                           href="/dashboard"
                           className="btn btn-danger mx-lg-3 rounded-2 py-2 fw-bolder my-sm-2 px-5 animated slideInDown"
                         >
-                          Sell Dashboard
+                          Sell
                         </Link>
                       </div>
                     </div>
@@ -82,7 +82,7 @@ export default function Banner() {
                           href="/dashboard"
                           class="btn btn-danger mx-lg-3 rounded-2 py-2 fw-bolder my-sm-2 px-5 animated slideInDown"
                         >
-                          Seller Dashboard
+                          Seller
                         </Link>
                       </div>
                     </div>
