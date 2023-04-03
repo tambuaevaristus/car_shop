@@ -4,7 +4,7 @@ import Shop from "@/components/shop";
 import { collection, getDocs } from 'firebase/firestore'
 import React from "react";
 import { useState } from "react";
-import { db } from "../auth/firebase"
+import { db } from "../firebase"
 import { getStorage, ref } from "firebase/storage";
 import {uploadBytes, getDownloadURL } from 'firebase/storage';
 import { addDoc, doc} from 'firebase/firestore'
