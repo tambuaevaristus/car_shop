@@ -41,7 +41,7 @@ export default function Banner() {
                           href=""
                           class="btn btn-danger mx-lg-3 rounded-2 py-2 fw-bolder my-sm-2 px-5 animated slideInDown"
                         >
-                          Sell
+                          Sell Dashboard
                         </Link>
                       </div>
                     </div>
@@ -77,10 +77,10 @@ export default function Banner() {
                           Find Car
                         </Link>
                         <Link
-                          href=""
+                          href="/seller/dashboard"
                           class="btn btn-danger mx-lg-3 rounded-2 py-2 fw-bolder my-sm-2 px-5 animated slideInDown"
                         >
-                          Sell
+                          Seller Dashboard
                         </Link>
                       </div>
                     </div>

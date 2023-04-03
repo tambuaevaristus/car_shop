@@ -58,7 +58,7 @@ export default function Shop({cars}) {
 
       <div className="container py-5">
         {cars.map((car)=><div key={car.id} className="row justify-content-center mb-3">
-          <div className="col-md-12 col-xl-10">
+          <div className="col-md-4 col-xl-4">
             <div className="card shadow-0 border rounded-3">
               <div className="card-body">
                 <div className="row">
@@ -84,9 +84,9 @@ export default function Shop({cars}) {
                     </div>
                     <div className="mt-1 mr-12 mb-0 text-muted small">
                       <span>{car.engine_type}</span>
-                      <span className="text-primary"> • </span>
+                      <span className="text-danger"> • </span>
                       <span>{car.mileage}</span>
-                      <span className="text-primary"> • </span>
+                      <span className="text-danger"> • </span>
                         <br />
                     </div>
 
