@@ -69,7 +69,7 @@ export default function bid() {
                         <p class="text-dark">Hybrid</p>
                         <p class="text-dark">4wheel</p>
                         <p class="text-dark">toyota</p>
-                        <p class="text-dark">Dizeil</p>
+                        <p class="text-dark">Dizel</p>
 
                       </div>
                      

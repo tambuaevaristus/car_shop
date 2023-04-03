@@ -39,15 +39,13 @@ export default function Header() {
         </div>
       </div>
 
-
-      <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+      <nav className="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
         <Link
           href="/"
-          class="navbar-brand d-flex align-items-center px-4 px-lg-5"
+          className="navbar-brand d-flex align-items-center px-4 px-lg-5"
         >
           <img src="/img/Topbid logo 3ai.png" width="100px" alt="" />
         </Link>
-
         <button
           type="button"
           className="navbar-toggler me-4"
@@ -64,16 +62,14 @@ export default function Header() {
             <Link href="#about" className="nav-item nav-link">
               About
             </Link>
-
-            <Link href="#services" class="nav-item nav-link">
+            <Link href="#services" className="nav-item nav-link">
               Brands{" "}
             </Link>
             <Link href="/shop" className="nav-item nav-link">
               Shop
             </Link>
 
-
-            <Link href="/contact" class="nav-item nav-link">
+            <Link href="/contact" className="nav-item nav-link">
               Contact
             </Link>
           </div>
