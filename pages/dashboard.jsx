@@ -26,7 +26,7 @@ export default function Dash() {
     return (
         <div>
             <Header />
-            <div className="w-100 p-5 justify-content-center">
+            <div className="w-100 p-5 justify-content-center text-center">
                 <Link href={""} > <button className="p-2 px-3">View Cars
                 </button></Link>
             <Link href={"/addCars"} > <button className="p-2 px-3">Add Cars
