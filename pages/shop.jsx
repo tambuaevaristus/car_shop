@@ -1,6 +1,6 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
-import Shop from "@/components/Shop";
+import Shop from "@/components/shop";
 import { collection, getDocs } from 'firebase/firestore'
 import React from "react";
 import { useEffect, useState } from "react";

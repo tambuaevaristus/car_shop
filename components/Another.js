@@ -36,7 +36,7 @@ export default function Another() {
                             <div class="row g-4">
                                 <div class="col-md-6" >
                                     <div class="position-relative h-100">
-                                        <img class="position-absolute img-fluid w-100 h-100" src="img/service-1.jpg"
+                                        <img class="position-absolute img-fluid w-100 h-100" src="img/mechanich.png"
                                             alt=""/>
                                     </div>
                                 </div>
