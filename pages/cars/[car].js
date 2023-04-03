@@ -22,9 +22,9 @@ export default function Car() {
 
   };
 
-  useEffect(() => {
+//   useEffect(() => {
     getCar();
-  },[]);
+//   },[]);
 
 //   console.log(car.data());
   return (
@@ -68,7 +68,7 @@ export default function Car() {
             <div class="">
               <div class="row">
                 <div class="col-md-6 my-auto">
-                  {/* <div class="images bg-dark"> */}{" "}
+                  {/* <div class="images bg-dark">{" "} */}
                   <img
                     id="main-image"
                     className="w-100 bg-cover"
