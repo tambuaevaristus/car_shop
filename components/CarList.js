@@ -1,14 +1,16 @@
-import React, { useEffect, useState } from "react";
-import Car from "./Car";
-import { db } from "@/firebase";
-import { collection, getDocs } from "@firebase/firestore";
+import Car from './Car'
+import { collection, getDocs } from 'firebase/firestore'
+import React from "react";
+import { useEffect, useState } from "react";
+import { db } from "../firebase"
 
 export default function CarList() {
-  const carsCollectionRef = collection(db, "Cars");
-  const [cars, setCars] = useState([]);
+  const carsCollectionRef = collection(db, 'Cars')
+  const [cars, setCars] = useState([])
 
   useEffect(() => {
-    const getCars = async () => {
+
+    const getCars= async () => {
       const data = await getDocs(carsCollectionRef);
       // setCars(data)
       setCars(data.docs.map((post) => ({ ...post.data(), id: post.id })));
@@ -34,6 +36,7 @@ export default function CarList() {
             />
           ))}
         </div>
+
       </div>
     </div>
   );

@@ -8,8 +8,8 @@ import Another from "@/components/Another";
 import CarList from "@/components/CarList";
 import Script from "next/script";
 import Footer from "@/components/Footer";
-
 export default function Home() {
+  
   return (
     <>
       <Head>

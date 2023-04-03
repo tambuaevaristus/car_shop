@@ -90,83 +90,80 @@ export default function Another() {
                     </div>
                   </div>
                 </div>
-                <div class="tab-pane fade" id="tab-pane-2">
-                  <div class="row g-4">
-                    <div class="col-md-6">
-                      <div class="position-relative h-100">
-                        <img
-                          class="position-absolute img-fluid w-100 h-100"
-                          src="img/service-2.jpg"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <h3 class="mb-3">
-                        15 Years Of Experience In Auto Servicing
-                      </h3>
-                      <p class="mb-4">
-                        We have the best engineers that check and confirm that a
-                        car is it best state because our constomer safty is our
-                        priority Also for our costomer, the sellers be rest
-                        assured the get thier money immediately a sale is done
-                        and the buyer gets his car
-                      </p>
-                      <p>
-                        <i class="fa fa-check text-secondary me-3"></i>Quality
-                        Servicing
-                      </p>
-                      <p>
-                        <i class="fa fa-check text-secondary me-3"></i>Expert
-                        Workers
-                      </p>
-                      <p>
-                        <i class="fa fa-check text-secondary me-3"></i>Modern
-                        Equipment
-                      </p>
-                      <a href="" class="btn btn-danger py-3 px-5 mt-3">
-                        Read More<i class="fa fa-arrow-right ms-3"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="tab-pane fade" id="tab-pane-3">
-                  <div class="row g-4">
-                    <div class="col-md-6">
-                      <div class="position-relative h-100">
-                        <img
-                          class="position-absolute img-fluid w-100 h-100"
-                          src="img/service-3.jpg"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <h3 class="mb-3">
-                        15 Years Of Experience In Auto Servicing
-                      </h3>
-                      <p class="mb-4">
-                        We have the best engineers that check and confirm that a
-                        car is it best state because our constomer safty is our
-                        priority Also for our costomer, the sellers be rest
-                        assured the get thier money immediately a sale is done
-                        and the buyer gets his car
-                      </p>
-                      <p>
-                        <i class="fa fa-check text-secondary me-3"></i>Quality
-                        Servicing
-                      </p>
-                      <p>
-                        <i class="fa fa-check text-secondary me-3"></i>Expert
-                        Workers
-                      </p>
-                      <p>
-                        <i class="fa fa-check text-secondary me-3"></i>Modern
-                        Equipment
-                      </p>
-                      <a href="" class="btn btn-danger py-3 px-5 mt-3">
-                        Read More<i class="fa fa-arrow-right ms-3"></i>
-                      </a>
+                <div class="col-lg-8">
+                    <div class="tab-content w-100">
+                        <div class="tab-pane fade show active" id="tab-pane-1">
+                            <div class="row g-4">
+                                <div class="col-md-6" >
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute img-fluid w-100 h-100" src="img/mechanich.png"
+                                            alt=""/>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3 class="mb-3">15 Years Of Experience In Auto Servicing</h3>
+                                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Quality Servicing</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Expert Workers</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Modern Equipment</p>
+                                    <a href="" class="btn btn-danger py-3 px-5 mt-3">Read More<i class="fa fa-arrow-right ms-3"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="tab-pane-2">
+                            <div class="row g-4">
+                                <div class="col-md-6" >
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute img-fluid w-100 h-100" src="img/service-2.jpg"
+                                            alt=""/>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3 class="mb-3">15 Years Of Experience In Auto Servicing</h3>
+                                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Quality Servicing</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Expert Workers</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Modern Equipment</p>
+                                    <a href="" class="btn btn-danger py-3 px-5 mt-3">Read More<i class="fa fa-arrow-right ms-3"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="tab-pane-3">
+                            <div class="row g-4">
+                                <div class="col-md-6" >
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute img-fluid w-100 h-100" src="img/service-3.jpg"
+                                            alt=""/>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3 class="mb-3">15 Years Of Experience In Auto Servicing</h3>
+                                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Quality Servicing</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Expert Workers</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Modern Equipment</p>
+                                    <a href="" class="btn btn-danger py-3 px-5 mt-3">Read More<i class="fa fa-arrow-right ms-3"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="tab-pane-4">
+                            <div class="row g-4">
+                                <div class="col-md-6" >
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute img-fluid w-100 h-100" src="img/service-4.jpg"
+                                            alt=""/>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3 class="mb-3">15 Years Of Experience In Auto Servicing</h3>
+                                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Quality Servicing</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Expert Workers</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Modern Equipment</p>
+                                    <a href="" class="btn btn-danger py-3 px-5 mt-3">Read More<i class="fa fa-arrow-right ms-3"></i></a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                   </div>
                 </div>
@@ -215,6 +212,5 @@ export default function Another() {
           </div>
         </div>
       </div>
-    </div>
   );
 }

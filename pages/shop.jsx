@@ -1,10 +1,10 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
-import Shop from "@/components/Shop";
-import { db } from "@/firebase";
+import Shop from "@/components/shop";
 import { collection, getDocs } from 'firebase/firestore'
 import React from "react";
 import { useEffect, useState } from "react";
+import { db } from "../firebase";
 
 export default function ShopPage() {
   const carsCollectionRef = collection(db, 'Cars')
@@ -22,12 +22,10 @@ export default function ShopPage() {
   // trunk-ignore(eslint/react-hooks/exhaustive-deps)
   },[])
 
-  console.log("cars", cars)
-
   return (
     <div>
       <Header />
-      <Shop cars = {cars}/>
+      {cars.length != 0 && <Shop cars = {cars}/>}
       <Footer />
     </div>
   );
