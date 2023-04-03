@@ -4,6 +4,7 @@ import Shop from "@/components/shop";
 import { collection, getDocs } from 'firebase/firestore'
 import React from "react";
 import { useEffect, useState } from "react";
+import { db } from "@/firebase";
 
 export default function ShopPage() {
   const carsCollectionRef = collection(db, 'Cars')

@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 import amount from "amount";
 import { collection, query, where, getDocs } from "firebase/firestore";
-import { db } from "../auth/firebase";
+import { db } from "../firebase";
 
 
 export default function Shop({ cars }) {

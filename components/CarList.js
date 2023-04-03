@@ -2,7 +2,7 @@ import Car from './Car'
 import { collection, getDocs } from 'firebase/firestore'
 import React from "react";
 import { useEffect, useState } from "react";
-import { db } from "../auth/firebase"
+import { db } from "../firebase"
 
 export default function CarList() {
   const carsCollectionRef = collection(db, 'Cars')
