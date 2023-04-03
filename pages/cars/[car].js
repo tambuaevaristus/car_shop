@@ -13,20 +13,35 @@ export default function Car() {
   const router = useRouter();
   const id = router.asPath.split("/cars/")[1];
 
-  const getCar = async () => {
-    const carRef = await doc(db, "Cars", id);
-    const carr = await await getDoc(carRef);
+  //   const {
+  //     query: { carId},
+  //   } = useRouter();
 
-    setCar(carr.data());
-    console.log(car);
+  //   const getCar = async () => {
+  //     const carRef = await doc(db, "Cars", id);
+  //     const carr = await await getDoc(carRef);
 
-  };
+  //     setCar(carr.data());
+  //     console.log(car);
+  //   };
 
-//   useEffect(() => {
-    getCar();
-//   },[]);
+  useEffect(() => {
+    (async () => {
+      if (!id) return false;
+      const carRef = await doc(db, "Cars", id);
+      const carr = await await getDoc(carRef);
 
-//   console.log(car.data());
+      if(carr.exists()){
+        const data = carr.data();
+              setCar(data);
+
+
+      }else{
+        console.log("no data")
+      }
+    })();
+  }, [id]);
+
   return (
     <div>
       <Head>
@@ -84,7 +99,10 @@ export default function Car() {
 
                     <div class="d-flex justify-content-between ">
                       <p className="">Model</p>
-                      <p class="text-dark">{car.model}{car.maufacture_date}</p>
+                      <p class="text-dark">
+                        {car.model}
+                        {car.maufacture_date}
+                      </p>
                     </div>
 
                     {/* <hr class="my-0" /> */}
@@ -132,6 +150,14 @@ export default function Car() {
                       >
                         Place a Bid
                       </Link>
+
+                      <button
+                        href="/bid/xx"
+                        class="btn text-uppercase mr-2 px-4"
+                        onClick={router.back}
+                      >
+                        Go Back 
+                      </button>
                     </div>
                   </div>
                 </div>
