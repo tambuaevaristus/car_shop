@@ -12,7 +12,7 @@ export default function Services() {
                         <div class="ps-4">
                             <h5 class="mb-3 mt-1">Safety</h5>
                             <p>Our vehicles have maximum confort. Your safety is our priority</p>
-                            <a class="text-secondary border-bottom" href="">Read More</a>
+                            {/* <a class="text-secondary border-bottom" href="">Read More</a> */}
                         </div>
                     </div>
                 </div>
@@ -21,8 +21,8 @@ export default function Services() {
                         <i class="fa fa-users-cog fa-2x text-secondary flex-shrink-0"></i>
                         <div class="ps-4">
                             <h5 class="mb-3 mt-1">Speed</h5>
-                            <p>Our Vehicles are faster </p>
-                            <a class="text-secondary border-bottom" href="">Read More</a>
+                            <p>Our Vehicles give you the speed your heart desire </p>
+                            {/* <a class="text-secondary border-bottom" href="">Read More</a> */}
                         </div>
                     </div>
                 </div>
@@ -31,8 +31,8 @@ export default function Services() {
                         <i class="fa fa-tools fa-2x text-secondary flex-shrink-0"></i>
                         <div class="ps-4">
                             <h5 class="mb-3 mt-1">Excitement</h5>
-                            <p>You enjoy while you ride</p>
-                            <a class="text-secondary border-bottom" href="">Read More</a>
+                            <p>Enjoy while you drive your dream car</p>
+                            {/* <a class="text-secondary border-bottom" href="">Read More</a> */}
                         </div>
                     </div>
                 </div>

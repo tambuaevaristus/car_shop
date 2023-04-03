@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
-export default function Car({bidding, engineType, fuelType, image, mileage, model , highest}) {
+export default function Car({id, bidding, engineType, fuelType, image, mileage, model , highest}) {
   return (
     // <div className="col-lg-4 p-3 py-4 col-md-4 col-12">
 
@@ -17,9 +17,6 @@ export default function Car({bidding, engineType, fuelType, image, mileage, mode
             className="border"
             alt="Laptop"
           />
-          {/* <a href="#!">
-                    <div class="mask"></div>
-                  </a> */}
         
         <div class="card-body pb-0 px-5">
           <div class="d-flex py-4 justify-content-between">
@@ -50,7 +47,7 @@ export default function Car({bidding, engineType, fuelType, image, mileage, mode
         </div>
         <div class="card-body">
           <div class="d-flex justify-content-between align-items-center mb-1">
-            <Link href="/cars/x" class="btn mx-auto text-danger ">
+            <Link href={"/cars/"+id} class="btn mx-auto text-danger ">
               View details
             </Link>
           </div>

@@ -5,6 +5,57 @@ import ShopPage from "./ShopPage";
 export default function Shop({cars}) {
   return (
     <section>
+
+<div class="advance-search col-10 px-5 container mx-auto mt-5 py-5 border ">
+        <form action="#" className="">
+          <div class="row mx-auto">
+            <div class="col-lg-3 col-md-3">
+              <div class="block d-flex">
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>By Date</option>
+                  <option value="1">2013</option>
+                  <option value="2">2011</option>
+                  <option value="3">2018</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3">
+              <div class="block d-flex">
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>By Model</option>
+                  <option value="1">Toyota</option>
+                  <option value="2">Tesla</option>
+                  <option value="3">Benz</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3">
+              <div class="block d-flex">
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>By Fuel Type</option>
+                  <option value="1">Petrol</option>
+                  <option value="2">Dizeil</option>
+                  <option value="3">Gas</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-3">
+              <div class="block d-flex">
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>By Mileage</option>
+                  <option value="1">Hibrid</option>
+                  <option value="2">Manual</option>
+                  <option value="3">Digital</option>
+                </select>
+                <button class="btn btn-danger mx-2">SEARCH</button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+
+
       <div className="container py-5">
         {cars.map((car)=><div key={car.id} className="row justify-content-center mb-3">
           <div className="col-md-12 col-xl-10">

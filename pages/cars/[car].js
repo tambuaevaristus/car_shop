@@ -1,10 +1,32 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import { db } from "@/firebase";
+import { collection, doc, getDoc } from "@firebase/firestore";
+import { async } from "@firebase/util";
 import Head from "next/head";
 import Link from "next/link";
-import React from "react";
+import { useRouter } from "next/router";
+import React, { useEffect, useState } from "react";
 
-export default function car() {
+export default function Car() {
+  const [car, setCar] = useState({});
+  const router = useRouter();
+  const id = router.asPath.split("/cars/")[1];
+
+  const getCar = async () => {
+    const carRef = await doc(db, "Cars", id);
+    const carr = await await getDoc(carRef);
+
+    setCar(carr.data());
+    console.log(car);
+
+  };
+
+  useEffect(() => {
+    getCar();
+  },[]);
+
+//   console.log(car.data());
   return (
     <div>
       <Head>
@@ -50,19 +72,19 @@ export default function car() {
                   <img
                     id="main-image"
                     className="w-100 bg-cover"
-                    src="https://img.freepik.com/free-photo/yellow-sport-car-with-black-autotuning-road_114579-5051.jpg?w=740&t=st=1680364469~exp=1680365069~hmac=7b8506b845b030ef94125ce1a7be04e728866b34d48de8af9c6125ba32193c3d"
+                    src={car.images[0]}
                     width="400"
                   />
                 </div>
                 <div class="col-md-6">
                   <div class="card-body pb-0 px-4">
                     <div class="d-flex py-4 justify-content-between">
-                      <h3>Toyota Corola</h3>
+                      <h3>{car.model}</h3>
                     </div>
 
                     <div class="d-flex justify-content-between ">
                       <p className="">Model</p>
-                      <p class="text-dark">Toyota 2015</p>
+                      <p class="text-dark">{car.model}{car.maufacture_date}</p>
                     </div>
 
                     {/* <hr class="my-0" /> */}
@@ -78,25 +100,24 @@ export default function car() {
                       </div>
                       <div class="d-flex justify-content-between ">
                         <p className="">Highest bid</p>
-                        <p class="text-dark">2000,000XAF</p>
+                        <p class="text-dark">{car.highest}</p>
                       </div>
                       <div class="d-flex justify-content-between ">
                         <p className="">Engine Type</p>
-                        <p class="text-dark">V8</p>
+                        <p class="text-dark">{car.engine_type}</p>
                       </div>
                       <div class="d-flex justify-content-between ">
                         <p className="">Fuel Type</p>
-                        <p class="text-dark">Dizel</p>
+                        <p class="text-dark">{car.fuel_type}</p>
                       </div>
                       <div class="d-flex justify-content-between ">
                         <p className="">Mileage</p>
-                        <p class="text-dark">Hybrid</p>
+                        <p class="text-dark">{car.mileage}</p>
                       </div>
                     </div>
-                
-                    
-                   <p className="fw-bold">Description</p>
-                    
+
+                    <p className="fw-bold">Description</p>
+
                     <p class="about">
                       Shop from a wide range of t-shirt from orianz. Pefect for
                       your everyday use, you could pair it with a stylish pair
@@ -105,10 +126,12 @@ export default function car() {
                     <div class="sizes mt-5"></div>
                     <div class="cart mt-4 align-items-center">
                       {" "}
-                      <Link href="/bid/xx" class="btn btn-danger text-uppercase mr-2 px-4">
+                      <Link
+                        href="/bid/xx"
+                        class="btn btn-danger text-uppercase mr-2 px-4"
+                      >
                         Place a Bid
                       </Link>
-                    
                     </div>
                   </div>
                 </div>
