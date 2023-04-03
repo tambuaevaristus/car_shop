@@ -156,7 +156,7 @@ export default function Shop({ cars }) {
                     </div>
                     <div className=" mt-4">
                       <Link
-                        href={"/car/"+car.id}
+                        href={"/cars/"+car.id}
                         className="btn btn-danger w-100 btn-block"
                         type="button"
                       >
