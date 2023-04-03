@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
-export default function Car() {
+export default function Car({bidding, engineType, fuelType, image, mileage, model , highest}) {
   return (
     // <div className="col-lg-4 p-3 py-4 col-md-4 col-12">
 
@@ -11,8 +11,10 @@ export default function Car() {
           data-mdb-ripple-color="light"
         >
           <img
-            src="https://img.freepik.com/free-photo/red-luxury-sedan-road_114579-5079.jpg?w=2000&t=st=1680368855~exp=1680369455~hmac=6256e9391f6a7c65245f0f538e0d4fbbd2a02cc457adf30d65d64b89f91ffde0"
-            class="img-fluid"
+            src={image[0]}
+            width="100%"
+            height="300px"
+            className="border"
             alt="Laptop"
           />
           {/* <a href="#!">
@@ -21,12 +23,12 @@ export default function Car() {
         
         <div class="card-body pb-0 px-5">
           <div class="d-flex py-4 justify-content-between">
-            <h3>Toyota Corola</h3>
+            <h3>{model}</h3>
           </div>
 
           <div class="d-flex justify-content-between ">
             <p className="">Model</p>
-            <p class="text-dark">Toyota 2015</p>
+            <p class="text-dark">{model}</p>
           </div>
 
           {/* <hr class="my-0" /> */}
@@ -42,7 +44,7 @@ export default function Car() {
             </div>
             <div class="d-flex justify-content-between ">
               <p className="">Highest bid</p>
-              <p class="text-dark">2000,000XAF</p>
+              <p class="text-dark">{highest}FCFA</p>
             </div>
           </div>
         </div>
