@@ -76,13 +76,13 @@ export default function Banner() {
                           href="/shop"
                           className="btn btn-danger rounded-2 py-2  fw-bolder px-5 animated slideInDown"
                         >
-                          Find Car
+                          Find a Car
                         </Link>
                         <Link
                           href="/dashboard"
                           class="btn btn-danger mx-lg-3 rounded-2 py-2 fw-bolder my-sm-2 px-5 animated slideInDown"
                         >
-                          Seller
+                          Seller Dashboard
                         </Link>
                       </div>
                     </div>
