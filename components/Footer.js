@@ -41,7 +41,7 @@ export default function Footer() {
               <h6 className="text-light">Monday - Friday:</h6>
               <p className="mb-4">09.00 AM - 09.00 PM</p>
               <h6 className="text-light">Saturday - Sunday:</h6>
-              <p className="mb-0">07.00 AM - 12.00 PM</p>
+              <p className="mb-0">07.00 AM - 6.00 PM</p>
             </div>
             <div className="col-lg-3 col-md-6">
               <h4 className="text-light mb-4">Brands</h4>
