@@ -21,7 +21,7 @@ export default function Footer() {
               <p className="mb-2">
                 <i className="fa fa-envelope me-3"></i>topbids@gmail.com
               </p>
-              <div className="d-flex pt-2">
+              {/* <div className="d-flex pt-2">
                 <a className="btn btn-outline-light btn-social" href="">
                   <i className="fab fa-twitter"></i>
                 </a>
@@ -34,7 +34,7 @@ export default function Footer() {
                 <a className="btn btn-outline-light btn-social" href="">
                   <i className="fab fa-linkedin-in"></i>
                 </a>
-              </div>
+              </div> */}
             </div>
             <div className="col-lg-3 col-md-6">
               <h4 className="text-light mb-4">Opening Hours</h4>
