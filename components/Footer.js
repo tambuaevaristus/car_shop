@@ -28,12 +28,12 @@ export default function Footer() {
                 <a className="btn btn-outline-light btn-social" href="">
                   <i className="fab fa-facebook-f"></i>
                 </a>
-                {/* <a className="btn btn-outline-light btn-social" href="">
+                <a className="btn btn-outline-light btn-social" href="">
                   <i className="fab fa-youtube"></i>
                 </a>
                 <a className="btn btn-outline-light btn-social" href="">
                   <i className="fab fa-linkedin-in"></i>
-                </a> */}
+                </a>
               </div>
             </div>
             <div className="col-lg-3 col-md-6">
