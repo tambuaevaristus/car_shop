@@ -22,7 +22,7 @@ export default function Footer() {
                 <i className="fa fa-envelope me-3"></i>topbids@gmail.com
               </p>
               <div className="d-flex pt-2">
-                <a className="btn btn-outline-light btn-social" href="">
+                {/* <a className="btn btn-outline-light btn-social" href="">
                   <i className="fab fa-twitter"></i>
                 </a>
                 <a className="btn btn-outline-light btn-social" href="">
@@ -33,7 +33,7 @@ export default function Footer() {
                 </a>
                 <a className="btn btn-outline-light btn-social" href="">
                   <i className="fab fa-linkedin-in"></i>
-                </a>
+                </a> */}
               </div>
             </div>
             <div className="col-lg-3 col-md-6">
