@@ -8,6 +8,7 @@ import Another from "@/components/Another";
 import CarList from "@/components/CarList";
 import Script from "next/script";
 import Footer from "@/components/Footer";
+import Form from "@/components/calendar/Form";
 export default function Home() {
   
   return (
@@ -48,8 +49,13 @@ export default function Home() {
         <Header />
         <Banner />
         <Services />
-        <CarList />
-        <Another />
+        <Another /> 
+        <h1 className="text-primary text-center">Book Appointment</h1>
+
+        <Form />
+       {/* <Services />
+        <CarList />*}
+        <Another /> */}
 
 
         <Footer />

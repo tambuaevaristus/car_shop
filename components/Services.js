@@ -10,8 +10,8 @@ export default function Services() {
                     <div className="d-flex py-5 px-4">
                         <i className="fa fa-certificate fa-2x text-secondary flex-shrink-0"></i>
                         <div className="ps-4">
-                            <h5 className="mb-3 mt-1">Safety</h5>
-                            <p>Our vehicles have maximum confort. Your safety is our priority</p>
+                            <h5 className="mb-3 mt-1">Fast Sharving</h5>
+                            <p>Enjoy while we make you look good</p>
                             {/* <a class="text-secondary border-bottom" href="">Read More</a> */}
                         </div>
                     </div>
@@ -20,8 +20,8 @@ export default function Services() {
                     <div class="d-flex bg-light py-5 px-4">
                         <i class="fa fa-users-cog fa-2x text-secondary flex-shrink-0"></i>
                         <div class="ps-4">
-                            <h5 class="mb-3 mt-1">Speed</h5>
-                            <p>Our Vehicles give you the speed your heart desire </p>
+                            <h5 class="mb-3 mt-1">Quality Shaving</h5>
+                            <p>Enjoy while we make you look good</p>
                             {/* <a class="text-secondary border-bottom" href="">Read More</a> */}
                         </div>
                     </div>
@@ -30,8 +30,8 @@ export default function Services() {
                     <div class="d-flex py-5 px-4">
                         <i class="fa fa-tools fa-2x text-secondary flex-shrink-0"></i>
                         <div class="ps-4">
-                            <h5 class="mb-3 mt-1">Excitement</h5>
-                            <p>Enjoy while you drive your dream car</p>
+                            <h5 class="mb-3 mt-1">Enjoy</h5>
+                            <p>Enjoy while we make you look good</p>
                             {/* <a class="text-secondary border-bottom" href="">Read More</a> */}
                         </div>
                     </div>
