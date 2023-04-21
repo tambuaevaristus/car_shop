@@ -92,12 +92,12 @@ export default function Footer() {
     
               </div>
               <div className="col-md-6 text-center text-md-end">
-                <div className="footer-menu">
+                {/* <div className="footer-menu">
                   <a href="">Home</a>
                   <a href="">Cookies</a>
                   <a href="">Help</a>
                   <a href="">FQAs</a>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
