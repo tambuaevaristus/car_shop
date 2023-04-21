@@ -19,7 +19,7 @@ export default function Footer() {
                 <i className="fa fa-phone-alt me-3"></i>+237654297746
               </p>
               <p className="mb-2">
-                <i className="fa fa-envelope me-3"></i>topbids@gmail.com
+                {/* <i className="fa fa-envelope me-3"></i>topbids@gmail.com */}
               </p>
               <div className="d-flex pt-2">
                 <a className="btn btn-outline-light btn-social" href="">
@@ -39,27 +39,13 @@ export default function Footer() {
             <div className="col-lg-3 col-md-6">
               <h4 className="text-light mb-4">Opening Hours</h4>
               <h6 className="text-light">Monday - Friday:</h6>
-              <p className="mb-4">09.00 AM - 09.00 PM</p>
+              <p className="mb-4">08.00 AM - 05.00 PM</p>
               <h6 className="text-light">Saturday - Sunday:</h6>
               <p className="mb-0">07.00 AM - 6.00 PM</p>
             </div>
             <div className="col-lg-3 col-md-6">
-              <h4 className="text-light mb-4">Brands</h4>
-              <a className="btn btn-link" href="">
-                 Bughatti Veyron
-              </a>
-              <a className="btn btn-link" href="">
-                Toyota
-              </a>
-              <a className="btn btn-link" href="">
-                Mercedes bennz
-              </a>
-              <a className="btn btn-link" href="">
-                Range Rover
-              </a>
-              <a className="btn btn-link" href="">
-                Lamborghini
-              </a>
+              {/* <h4 className="text-light mb-4">Brands</h4> */}
+             
             </div>
             <div className="col-lg-3 col-md-6">
               <h4 className="text-light mb-4">Newsletter</h4>
@@ -72,7 +58,7 @@ export default function Footer() {
                 />
                 <button
                   type="button"
-                  className="btn btn-danger py-2 position-absolute top-0 end-0 mt-2 me-2"
+                  className="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"
                 >
                   SignUp
                 </button>
@@ -85,10 +71,8 @@ export default function Footer() {
             <div className="row">
               <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
                 &copy;{" "}
-                <a className="border-bottom " href="#">
-                  Topbids
-                </a>
-                   All Right Reserved. Designed By{" Topbids designers "}
+               
+                   All Right Reserved. Designed By Desmond and Eva
     
               </div>
               <div className="col-md-6 text-center text-md-end">
