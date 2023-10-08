@@ -9,7 +9,7 @@ npm run dev
 # or
 yarn dev
 # or
-pnpm devgg
+pnpm dev
 ```
 yeah
 Open [http://localhost:3000](http://localhost:3000)mmm
