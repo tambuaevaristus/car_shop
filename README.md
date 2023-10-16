@@ -12,7 +12,7 @@ yarn dev
 pnpm dev
 ```
 yeah
-Open [http://localhost:3000](http://localhost:3000)mmm
+😺 [http://localhost:3000](http://localhost:3000)mmm
  with your browser to see the result.
 yeaajkk
 You can start editing the page by modifying `pages/index.hhjs`. The page auto-updates as you edit thefile
